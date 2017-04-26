@@ -2,26 +2,20 @@
 # !-*- coding:utf-8 -*-
 
 import tornado.web
-from bin.logic.Service_logic import Service_logic
+from bin.until import Path
 
-SL = Service_logic()
+htmlPath = Path.getInstance().htmlPath
 
-class yy(tornado.web.RequestHandler):
+
+class index(tornado.web.RequestHandler):
     def get(self):
-        greeting = self.get_argument('greeting', 'Hello')
-        greeting1 = self.get_argument('greeting1', 'kk')
-        # self.write(SL.logic(greeting, greeting1))
-        self.render(SL.logic())
+        self.render(htmlPath + self.request.path)
 
-    def post(self):
-        self.get()
 
-class aa(tornado.web.RequestHandler):
+class main(tornado.web.RequestHandler):
     def get(self):
-        greeting = self.get_argument('greeting', 'Hello')
-        greeting1 = self.get_argument('greeting1', 'kk')
-        # self.write(SL.logic(greeting, greeting1))
-        self.render(SL.logic())
+        self.render(htmlPath + self.request.path)
 
-    def post(self):
-        self.get()
+class interface_statistics(tornado.web.RequestHandler):
+    def get(self):
+        self.render(htmlPath + self.request.path)

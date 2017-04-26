@@ -12,17 +12,17 @@ class Path(object):
     def __init__(self):
         self.path = sys.path[0]
         self.projectDirPath = self.path[0:self.path.rindex("bin")]
-        self.confDirPath = self.projectDirPath + "conf" + os.sep
-        self.binPath = self.projectDirPath + "bin" + os.sep
-        self.logsDirPath = self.projectDirPath + "logs" + os.sep
-        self.scriptsDirPath = self.projectDirPath + "scripts" + os.sep
-        self.filesDirPath = self.projectDirPath + "files" + os.sep
-        self.runtimeDirPath = self.projectDirPath + "runtime" + os.sep
-        self.webPath = self.projectDirPath+"web"+os.sep
-        self.htmlPath = self.webPath + "html" + os.sep
-        self.javaScriptPath = self.webPath + "js" + os.sep
-        self.cssPath = self.webPath + "css" + os.sep
-        self.webPicPath = self.webPath + "pic" + os.sep
+        self.confDirPath = self.projectDirPath + os.sep + "conf"
+        self.binPath = self.projectDirPath + os.sep + "bin"
+        self.logsDirPath = self.projectDirPath + os.sep + "logs"
+        self.scriptsDirPath = self.projectDirPath + os.sep + "scripts"
+        self.filesDirPath = self.projectDirPath + os.sep + "files"
+        self.runtimeDirPath = self.projectDirPath + os.sep + "runtime"
+        self.webPath = self.projectDirPath + os.sep + "web"
+        self.htmlPath = self.webPath + os.sep + "html"
+        self.javaScriptPath = self.webPath + os.sep + "js"
+        self.cssPath = self.webPath + os.sep + "css"
+        self.webPicPath = self.webPath + os.sep + "pic"
         pass
 
 

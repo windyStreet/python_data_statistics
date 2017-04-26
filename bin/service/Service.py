@@ -6,7 +6,7 @@ from bin.logic.Service_logic import *
 from bin.until import PR
 from bin import until
 
-_PR=PR.getInstance()
+
 
 
 operator = \
@@ -17,6 +17,7 @@ operator = \
 
 class Service(tornado.web.RequestHandler):
     def get(self):
+        _PR = PR.getInstance()
         try:
             method = self.get_argument('method', '__error__')
             if method == "__error__":

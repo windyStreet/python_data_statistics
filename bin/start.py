@@ -16,12 +16,13 @@ if __name__ == "__main__":
     tornado.options.parse_command_line()
     app = tornado.web.Application(
         handlers=[(r"/service", Service),
-                  (r"/index/yy", yy),
-                  (r"/index/aa", aa)
+                  (r"/index.html", index),
+                  (r"/main.html", main),
+                  (r"/interface_statistics.html", interface_statistics)
                   ],
         template_path=P.htmlPath,
         static_path=P.webPath,
-        debug=True
+        debug=False
     )
     http_server = tornado.httpserver.HTTPServer(app)
     http_server.listen(options.port)

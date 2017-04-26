@@ -7,12 +7,31 @@ from bin.until import PR
 
 P = Path.getInstance()
 J = JsonFileFunc.getInstance()
-_PR = PR.getInstance()
 
 
 class Service_logic(object):
     def logic(self, data):
-        _PR.setResult([{"s": "ssss"}, {"h": "hhhhh"}, {"t": "ttttt"}])
+        _PR = PR.getInstance()
+        _data = {
+            "title": {
+                "text": 'ECharts 入门示例'
+            },
+            "tooltip": {
+            },
+            "legend": {
+                "data": ['销量']
+            },
+            "xAxis": {
+                "data": ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
+            },
+            "yAxis": {},
+            "series": [{
+                "name": '销量',
+                "type": 'bar',
+                "data": [5, 20, 36, 10, 10, 200]
+            }]
+        }
+        _PR.setResult(_data)
         return _PR.getPRBytes()
 
     def xx(self, data):
