@@ -21,6 +21,7 @@ class Logger(logging.Logger):
             # 创建一个handler，用于写入日志文件 (每天生成1个，保留30天的日志)
             fh = logging.handlers.TimedRotatingFileHandler(self.filename, 'D', 1, 30)
             fh.suffix = "%Y%m%d-%H%M.log"
+            #fh = logging.handlers.RotatingFileHandler(self.log_all, mode='a', maxBytes=20 * 1024, backupCount=100, encoding=None, delay=0)
             fh.setLevel(logging.DEBUG)
             fh.setFormatter(formatter)  # 定义handler的输出格式
             self.addHandler(fh)  # 给logger添加handler
@@ -28,6 +29,7 @@ class Logger(logging.Logger):
         # # 创建一个handler，用于写入日志文件 (每天生成1个，保留30天的日志)
         fh_all = logging.handlers.TimedRotatingFileHandler(self.log_all, 'M', 1, 30)
         fh_all.suffix = "%Y%m%d-%H%M.log"
+        #fh_all = logging.handlers.RotatingFileHandler(self.log_all, mode='a', maxBytes=20 * 1024, backupCount=100, encoding=None, delay=0)
         fh_all.setLevel(logging.DEBUG)
         fh_all.setFormatter(formatter)  # 定义handler的输出格式
         self.addHandler(fh_all)
