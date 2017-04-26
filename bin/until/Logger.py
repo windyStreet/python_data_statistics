@@ -19,14 +19,14 @@ class Logger(logging.Logger):
         if filename is not None:
             self.filename = filename
             # 创建一个handler，用于写入日志文件 (每天生成1个，保留30天的日志)
-            fh = logging.handlers.TimedRotatingFileHandler(self.filename, 'D', 1, 5)
+            fh = logging.handlers.TimedRotatingFileHandler(self.filename, 'D', 1, 30)
             fh.suffix = "%Y%m%d-%H%M.log"
             fh.setLevel(logging.DEBUG)
             fh.setFormatter(formatter)  # 定义handler的输出格式
             self.addHandler(fh)  # 给logger添加handler
 
         # # 创建一个handler，用于写入日志文件 (每天生成1个，保留30天的日志)
-        fh_all = logging.handlers.TimedRotatingFileHandler(self.log_all, 'D', 1, 5)
+        fh_all = logging.handlers.TimedRotatingFileHandler(self.log_all, 'M', 1, 30)
         fh_all.suffix = "%Y%m%d-%H%M.log"
         fh_all.setLevel(logging.DEBUG)
         fh_all.setFormatter(formatter)  # 定义handler的输出格式
