@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # !-*- coding:utf-8 -*-
 import json
+from bin import until
 
 class PR(object):
     def __init__(self):
-        self.code = 1
+        self.code = until.Code_OK
         self.msg = "ok"
         self.result = None
 

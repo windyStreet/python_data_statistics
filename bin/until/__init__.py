@@ -14,3 +14,11 @@
 # mailLevel_product = 30
 # mailLevel_develop = 40
 # mailLevel_default = 30
+
+
+Code_ERROR = "0"
+Code_OK = "1"
+Code_EXCEPTION = "2"
+Code_PARERROR = "000"
+Code_DATAERROR = "001"
+Code_METHODERROR="002"
