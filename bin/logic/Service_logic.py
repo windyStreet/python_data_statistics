@@ -1,13 +1,10 @@
 #!/usr/bin/env python
 # !-*- coding:utf-8 -*-
 
-from bin.until import Path
-from bin.until import JsonFileFunc
 from bin.until import PR
+from bin.until import Logger
 
-P = Path.getInstance()
-J = JsonFileFunc.getInstance()
-
+L = Logger.getInstance()
 
 class Service_logic(object):
     def logic(self, data):
@@ -32,6 +29,11 @@ class Service_logic(object):
             }]
         }
         _PR.setResult(_data)
+        # L.debug(_data)
+        # L.info(_data)
+        # L.warn(_data)
+        # L.error(_data)
+        # L.critical(_data)
         return _PR.getPRBytes()
 
     def xx(self, data):

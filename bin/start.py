@@ -10,9 +10,6 @@ P = Path.getInstance()
 define("port", default=8001, help="run on the given port", type=int)
 
 if __name__ == "__main__":
-    # log = Logger()
-    # log.info("日志模块消息!")
-
     tornado.options.parse_command_line()
     app = tornado.web.Application(
         handlers=[(r"/service", Service),

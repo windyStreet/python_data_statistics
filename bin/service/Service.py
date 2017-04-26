@@ -6,14 +6,12 @@ from bin.logic.Service_logic import *
 from bin.until import PR
 from bin import until
 
-
-
-
 operator = \
     {
         "logic": Service_logic().logic,
         "xx": Service_logic().xx
     }
+
 
 class Service(tornado.web.RequestHandler):
     def get(self):
@@ -27,10 +25,10 @@ class Service(tornado.web.RequestHandler):
             data = self.get_argument('data', None)
             self.write(operator.get(method)(data))
         except Exception as e:
+            print(e)
             _PR.setCode(until.Code_EXCEPTION)
-            _PR.setMsg("exception ERROR :"+str(e))
+            _PR.setMsg("exception ERROR :" + str(e))
             self.write(_PR.getPRBytes())
-
 
     def post(self):
         self.get()
