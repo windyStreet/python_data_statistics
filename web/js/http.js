@@ -1,5 +1,6 @@
 //异步请求获取数据
 function asyncRequest(data, callback,callback2) {
+    data["data"]=JSON.stringify(data["data"])
     $.ajax({
         type: "post",
         url: "service",

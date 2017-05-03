@@ -1,6 +1,6 @@
 function init(){
     data={
-        "method":"logic",
+        "method":"xx",
         "data":"1234"
     }
     asyncRequest(data, func1,null)
