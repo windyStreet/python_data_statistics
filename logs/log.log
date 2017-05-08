@@ -21,3 +21,200 @@
 [    INFO]-[2017-05-08 13:26:40,947]-DB_init.py :Line:30 : init DB_ds , insert data:YXYBB:YXYBB
 [    INFO]-[2017-05-08 13:26:40,947]-DB_init.py :Line:30 : init DB_ds , insert data:OAMP:OAMP
 [    INFO]-[2017-05-08 13:26:40,947]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-08 13:30:47,949]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:30:47,965]-DB_init.py :Line:31 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:30:47,965]-DB_init.py :Line:31 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 13:31:08,083]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:31:08,099]-DB_init.py :Line:31 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 13:31:08,099]-DB_init.py :Line:31 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:31:21,894]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:31:21,925]-DB_init.py :Line:31 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:31:21,925]-DB_init.py :Line:31 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 13:31:25,559]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:31:25,575]-DB_init.py :Line:31 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 13:31:25,575]-DB_init.py :Line:31 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:31:39,494]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:31:39,510]-DB_init.py :Line:31 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:31:39,510]-DB_init.py :Line:31 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 13:33:31,930]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:33:31,945]-DB_init.py :Line:31 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 13:33:31,945]-DB_init.py :Line:31 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:33:50,060]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:33:50,076]-DB_init.py :Line:31 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 13:33:50,076]-DB_init.py :Line:31 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:34:54,544]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:34:54,559]-DB_init.py :Line:31 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 13:34:54,559]-DB_init.py :Line:31 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:35:20,139]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:35:20,155]-DB_init.py :Line:31 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 13:35:20,155]-DB_init.py :Line:31 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:35:55,506]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:35:55,522]-DB_init.py :Line:31 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:35:55,522]-DB_init.py :Line:31 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 13:36:22,986]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:36:23,002]-DB_init.py :Line:31 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 13:36:23,002]-DB_init.py :Line:31 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:36:38,402]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:36:38,418]-DB_init.py :Line:31 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:36:38,418]-DB_init.py :Line:31 : init DB_ds , insert data:YXYBB:YXYBB
+[   DEBUG]-[2017-05-08 13:36:42,616]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 13:36:42,616]-Service.py :Line:31 : the service request parameter : {'legend_infos': {'保宝网点击量': {'project_id': 'YXYBB', 'project_name': 'YXYBB'}, '保宝app点击量': {'project_id': 'BBT', 'project_name': 'BBT'}}, 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'statistic_type': 'click', 'step': 1440, 'title_text': '网站点击量统计', 'step_count': 7, 'type': 'line'}
+[    INFO]-[2017-05-08 13:38:01,401]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:38:01,433]-DB_init.py :Line:31 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:38:01,433]-DB_init.py :Line:31 : init DB_ds , insert data:YXYBB:YXYBB
+[   DEBUG]-[2017-05-08 13:38:01,542]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 13:38:01,542]-Service.py :Line:31 : the service request parameter : {'title_text': '网站点击量统计', 'legend_infos': {'保宝app点击量': {'project_id': 'BBT', 'project_name': 'BBT'}, '保宝网点击量': {'project_id': 'YXYBB', 'project_name': 'YXYBB'}}, 'statistic_type': 'click', 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}, 'step_count': 7, 'type': 'line', 'step': 1440}
+[    INFO]-[2017-05-08 13:39:16,918]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:39:16,927]-DB_init.py :Line:31 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 13:39:16,928]-DB_init.py :Line:31 : init DB_ds , insert data:OAMP:OAMP
+[   DEBUG]-[2017-05-08 13:39:18,343]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 13:39:18,343]-Service.py :Line:31 : the service request parameter : {'legend_infos': {'保宝网点击量': {'project_id': 'YXYBB', 'project_name': 'YXYBB'}, '保宝app点击量': {'project_id': 'BBT', 'project_name': 'BBT'}}, 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}, 'statistic_type': 'click', 'title_text': '网站点击量统计', 'step': 1440, 'type': 'line', 'step_count': 7}
+[   DEBUG]-[2017-05-08 13:40:06,863]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 13:40:06,864]-Service.py :Line:31 : the service request parameter : {'legend_infos': {'保宝网点击量': {'project_id': 'YXYBB', 'project_name': 'YXYBB'}, '保宝app点击量': {'project_id': 'BBT', 'project_name': 'BBT'}}, 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}, 'statistic_type': 'click', 'title_text': '网站点击量统计', 'step': 1440, 'type': 'line', 'step_count': 7}
+[    INFO]-[2017-05-08 13:41:31,742]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:45:15,383]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:45:22,926]-DB_init.py :Line:33 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:45:24,905]-DB_init.py :Line:33 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-08 13:45:27,216]-DB_init.py :Line:33 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-08 13:45:29,557]-DB_init.py :Line:33 : init DB_ds , insert data:YXYBB:YXYBB
+[   DEBUG]-[2017-05-08 13:46:12,033]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 13:46:12,034]-Service.py :Line:31 : the service request parameter : {'statistic_type': 'click', 'step_count': 7, 'step': 1440, 'legend_infos': {'保宝网点击量': {'project_name': 'YXYBB', 'project_id': 'YXYBB'}, '保宝app点击量': {'project_name': 'BBT', 'project_id': 'BBT'}}, 'type': 'line', 'title_text': '网站点击量统计', 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}}
+[   DEBUG]-[2017-05-08 13:46:25,511]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 13:46:25,512]-Service.py :Line:31 : the service request parameter : {'statistic_type': 'click', 'step_count': 7, 'step': 1440, 'legend_infos': {'保宝网点击量': {'project_name': 'YXYBB', 'project_id': 'YXYBB'}, '保宝app点击量': {'project_name': 'BBT', 'project_id': 'BBT'}}, 'type': 'line', 'title_text': '网站点击量统计', 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}}
+[    INFO]-[2017-05-08 13:47:11,794]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:47:16,360]-DB_init.py :Line:33 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 13:47:18,018]-DB_init.py :Line:33 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:47:19,439]-DB_init.py :Line:33 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-08 13:47:21,021]-DB_init.py :Line:33 : init DB_ds , insert data:base:YXYBB_statistics
+[   DEBUG]-[2017-05-08 13:47:25,632]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 13:47:25,633]-Service.py :Line:31 : the service request parameter : {'type': 'line', 'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'project_id': 'BBT'}, '保宝网点击量': {'project_name': 'YXYBB', 'project_id': 'YXYBB'}}, 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'step_count': 7, 'title_text': '网站点击量统计', 'step': 1440, 'statistic_type': 'click'}
+[   DEBUG]-[2017-05-08 13:47:37,802]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-02 13:47:37.802242', '$lt': '2017-05-03 13:47:37.802242'}}
+[   DEBUG]-[2017-05-08 13:47:38,192]-Line.py :Line:47 : 456146
+[   DEBUG]-[2017-05-08 13:47:38,567]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-03 13:47:37.802242', '$lt': '2017-05-04 13:47:37.802242'}}
+[   DEBUG]-[2017-05-08 13:47:38,958]-Line.py :Line:47 : 48338
+[   DEBUG]-[2017-05-08 13:47:39,343]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-04 13:47:37.802242', '$lt': '2017-05-05 13:47:37.802242'}}
+[   DEBUG]-[2017-05-08 13:47:39,718]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 13:47:40,093]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-05 13:47:37.802242', '$lt': '2017-05-06 13:47:37.802242'}}
+[   DEBUG]-[2017-05-08 13:47:40,475]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 13:47:40,866]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-06 13:47:37.802242', '$lt': '2017-05-07 13:47:37.802242'}}
+[   DEBUG]-[2017-05-08 13:47:41,257]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 13:47:41,663]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-07 13:47:37.802242', '$lt': '2017-05-08 13:47:37.802242'}}
+[   DEBUG]-[2017-05-08 13:47:42,048]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 13:47:42,413]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-08 13:47:37.802242', '$lt': '2017-05-09 13:47:37.802242'}}
+[   DEBUG]-[2017-05-08 13:47:42,803]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 13:47:43,209]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-02 13:47:43.209941', '$lt': '2017-05-03 13:47:43.209941'}}
+[   DEBUG]-[2017-05-08 13:47:43,584]-Line.py :Line:47 : 456146
+[   DEBUG]-[2017-05-08 13:47:43,975]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-03 13:47:43.209941', '$lt': '2017-05-04 13:47:43.209941'}}
+[   DEBUG]-[2017-05-08 13:47:44,363]-Line.py :Line:47 : 48338
+[   DEBUG]-[2017-05-08 13:47:44,754]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-04 13:47:43.209941', '$lt': '2017-05-05 13:47:43.209941'}}
+[   DEBUG]-[2017-05-08 13:47:45,133]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 13:47:45,524]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-05 13:47:43.209941', '$lt': '2017-05-06 13:47:43.209941'}}
+[   DEBUG]-[2017-05-08 13:47:45,914]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 13:47:46,302]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-06 13:47:43.209941', '$lt': '2017-05-07 13:47:43.209941'}}
+[   DEBUG]-[2017-05-08 13:47:46,708]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 13:47:47,099]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-07 13:47:43.209941', '$lt': '2017-05-08 13:47:43.209941'}}
+[   DEBUG]-[2017-05-08 13:47:47,474]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 13:47:47,896]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-08 13:47:43.209941', '$lt': '2017-05-09 13:47:43.209941'}}
+[   DEBUG]-[2017-05-08 13:47:48,312]-Line.py :Line:47 : 0
+[    INFO]-[2017-05-08 13:49:39,949]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:49:39,963]-DB_init.py :Line:33 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-08 13:49:39,964]-DB_init.py :Line:33 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 13:49:39,964]-DB_init.py :Line:33 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:49:39,964]-DB_init.py :Line:33 : init DB_ds , insert data:BBT:BBT
+[   DEBUG]-[2017-05-08 13:49:42,265]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 13:49:42,265]-Service.py :Line:31 : the service request parameter : {'step_count': 7, 'step': 1440, 'title_text': '网站点击量统计', 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'statistic_type': 'click', 'legend_infos': {'保宝app点击量': {'project_id': 'BBT', 'project_name': 'BBT'}, '保宝网点击量': {'project_id': 'YXYBB', 'project_name': 'YXYBB'}}, 'type': 'line'}
+[   DEBUG]-[2017-05-08 13:49:44,927]-Line.py :Line:46 : {'createtime': {'$gt': '2017-05-02 13:49:44.927259', '$lt': '2017-05-03 13:49:44.927259'}, 'type': 'click'}
+[   DEBUG]-[2017-05-08 13:49:45,307]-Line.py :Line:47 : 456146
+[   DEBUG]-[2017-05-08 13:49:45,698]-Line.py :Line:46 : {'createtime': {'$gt': '2017-05-03 13:49:44.927259', '$lt': '2017-05-04 13:49:44.927259'}, 'type': 'click'}
+[   DEBUG]-[2017-05-08 13:49:46,073]-Line.py :Line:47 : 48338
+[   DEBUG]-[2017-05-08 13:49:46,452]-Line.py :Line:46 : {'createtime': {'$gt': '2017-05-04 13:49:44.927259', '$lt': '2017-05-05 13:49:44.927259'}, 'type': 'click'}
+[   DEBUG]-[2017-05-08 13:49:46,827]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 13:49:47,218]-Line.py :Line:46 : {'createtime': {'$gt': '2017-05-05 13:49:44.927259', '$lt': '2017-05-06 13:49:44.927259'}, 'type': 'click'}
+[   DEBUG]-[2017-05-08 13:49:47,577]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 13:49:47,952]-Line.py :Line:46 : {'createtime': {'$gt': '2017-05-06 13:49:44.927259', '$lt': '2017-05-07 13:49:44.927259'}, 'type': 'click'}
+[   DEBUG]-[2017-05-08 13:49:48,328]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 13:49:48,718]-Line.py :Line:46 : {'createtime': {'$gt': '2017-05-07 13:49:44.927259', '$lt': '2017-05-08 13:49:44.927259'}, 'type': 'click'}
+[   DEBUG]-[2017-05-08 13:49:49,078]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 13:49:49,453]-Line.py :Line:46 : {'createtime': {'$gt': '2017-05-08 13:49:44.927259', '$lt': '2017-05-09 13:49:44.927259'}, 'type': 'click'}
+[   DEBUG]-[2017-05-08 13:49:49,828]-Line.py :Line:47 : 0
+[    INFO]-[2017-05-08 13:50:18,197]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:50:18,212]-DB_init.py :Line:33 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-08 13:50:18,212]-DB_init.py :Line:33 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-08 13:50:18,212]-DB_init.py :Line:33 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:50:18,212]-DB_init.py :Line:33 : init DB_ds , insert data:YXYBB:YXYBB
+[   DEBUG]-[2017-05-08 13:50:22,972]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 13:50:22,973]-Service.py :Line:31 : the service request parameter : {'filter_infos': {'key2': {'relation': 'relation', 'value': 'value'}, 'key1': {'relation': 'relation', 'value': 'value'}}, 'step_count': 7, 'statistic_type': 'click', 'type': 'line', 'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'project_id': 'BBT'}, '保宝网点击量': {'project_name': 'YXYBB', 'project_id': 'YXYBB'}}, 'step': 1440, 'title_text': '网站点击量统计'}
+[    INFO]-[2017-05-08 13:53:06,570]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:53:06,585]-DB_init.py :Line:33 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-08 13:53:06,585]-DB_init.py :Line:33 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:53:06,585]-DB_init.py :Line:33 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-08 13:53:06,585]-DB_init.py :Line:33 : init DB_ds , insert data:YXYBB:YXYBB
+[   DEBUG]-[2017-05-08 13:53:06,617]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 13:53:06,617]-Service.py :Line:31 : the service request parameter : {'statistic_type': 'click', 'step': 1440, 'filter_infos': {'key2': {'relation': 'relation', 'value': 'value'}, 'key1': {'relation': 'relation', 'value': 'value'}}, 'step_count': 7, 'type': 'line', 'legend_infos': {'保宝网点击量': {'project_id': 'YXYBB', 'project_name': 'YXYBB'}, '保宝app点击量': {'project_id': 'BBT', 'project_name': 'BBT'}}, 'title_text': '网站点击量统计'}
+[    INFO]-[2017-05-08 13:54:19,135]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 13:54:19,151]-DB_init.py :Line:33 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 13:54:19,151]-DB_init.py :Line:33 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-08 13:54:19,151]-DB_init.py :Line:33 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 13:54:19,151]-DB_init.py :Line:33 : init DB_ds , insert data:base:YXYBB_statistics
+[   DEBUG]-[2017-05-08 13:54:22,059]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 13:54:22,059]-Service.py :Line:31 : the service request parameter : {'type': 'line', 'statistic_type': 'click', 'step_count': 7, 'title_text': '网站点击量统计', 'filter_infos': {'key2': {'relation': 'relation', 'value': 'value'}, 'key1': {'relation': 'relation', 'value': 'value'}}, 'step': 1440, 'legend_infos': {'保宝app点击量': {'project_id': 'BBT', 'project_name': 'BBT'}, '保宝网点击量': {'project_id': 'YXYBB', 'project_name': 'YXYBB'}}}
+[   DEBUG]-[2017-05-08 15:13:51,342]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-02 15:13:51.342933', '$lt': '2017-05-03 15:13:51.342933'}}
+[   DEBUG]-[2017-05-08 15:13:51,717]-Line.py :Line:47 : 504484
+[   DEBUG]-[2017-05-08 15:13:52,092]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-03 15:13:51.342933', '$lt': '2017-05-04 15:13:51.342933'}}
+[   DEBUG]-[2017-05-08 15:13:52,483]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 15:13:52,858]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-04 15:13:51.342933', '$lt': '2017-05-05 15:13:51.342933'}}
+[   DEBUG]-[2017-05-08 15:13:53,238]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 15:13:53,644]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-05 15:13:51.342933', '$lt': '2017-05-06 15:13:51.342933'}}
+[   DEBUG]-[2017-05-08 15:13:54,019]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 15:13:54,407]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-06 15:13:51.342933', '$lt': '2017-05-07 15:13:51.342933'}}
+[   DEBUG]-[2017-05-08 15:13:54,767]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 15:13:55,159]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-07 15:13:51.342933', '$lt': '2017-05-08 15:13:51.342933'}}
+[   DEBUG]-[2017-05-08 15:13:55,534]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 15:13:55,909]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-08 15:13:51.342933', '$lt': '2017-05-09 15:13:51.342933'}}
+[   DEBUG]-[2017-05-08 15:13:56,302]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 15:13:56,677]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-02 15:13:56.677040', '$lt': '2017-05-03 15:13:56.677040'}}
+[   DEBUG]-[2017-05-08 15:13:57,052]-Line.py :Line:47 : 504484
+[   DEBUG]-[2017-05-08 15:13:57,427]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-03 15:13:56.677040', '$lt': '2017-05-04 15:13:56.677040'}}
+[   DEBUG]-[2017-05-08 15:13:57,802]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 15:13:58,204]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-04 15:13:56.677040', '$lt': '2017-05-05 15:13:56.677040'}}
+[   DEBUG]-[2017-05-08 15:13:58,579]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 15:13:58,969]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-05 15:13:56.677040', '$lt': '2017-05-06 15:13:56.677040'}}
+[   DEBUG]-[2017-05-08 15:13:59,336]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 15:13:59,727]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-06 15:13:56.677040', '$lt': '2017-05-07 15:13:56.677040'}}
+[   DEBUG]-[2017-05-08 15:14:00,124]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 15:14:00,484]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-07 15:13:56.677040', '$lt': '2017-05-08 15:13:56.677040'}}
+[   DEBUG]-[2017-05-08 15:14:00,890]-Line.py :Line:47 : 0
+[   DEBUG]-[2017-05-08 15:14:01,277]-Line.py :Line:46 : {'type': 'click', 'createtime': {'$gt': '2017-05-08 15:13:56.677040', '$lt': '2017-05-09 15:13:56.677040'}}
+[   DEBUG]-[2017-05-08 15:14:01,667]-Line.py :Line:47 : 0
+[    INFO]-[2017-05-08 15:29:27,053]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 15:29:27,053]-DB_init.py :Line:33 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 15:29:27,053]-DB_init.py :Line:33 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-08 15:29:27,053]-DB_init.py :Line:33 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 15:29:27,069]-DB_init.py :Line:33 : init DB_ds , insert data:base:YXYBB_statistics
+[   DEBUG]-[2017-05-08 15:29:29,243]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 15:29:29,244]-Service.py :Line:31 : the service request parameter : {'filter_infos': {'key2': {'value': 'value', 'relation': 'relation'}, 'key1': {'value': 'value', 'relation': 'relation'}}, 'type': 'line', 'legend_infos': {'保宝app点击量': {'project_id': 'BBT', 'statistic_type': 'click', 'project_name': 'BBT'}, '保宝网点击量': {'project_id': 'YXYBB', 'statistic_type': 'click', 'project_name': 'YXYBB'}}, 'step': 1440, 'title_text': '网站点击量统计', 'step_count': 7}
+[   DEBUG]-[2017-05-08 15:30:19,289]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 15:30:19,289]-Service.py :Line:31 : the service request parameter : {'filter_infos': {'key2': {'value': 'value', 'relation': 'relation'}, 'key1': {'value': 'value', 'relation': 'relation'}}, 'type': 'line', 'legend_infos': {'保宝app点击量': {'project_id': 'BBT', 'statistic_type': 'click', 'project_name': 'BBT'}, '保宝网点击量': {'project_id': 'YXYBB', 'statistic_type': 'click', 'project_name': 'YXYBB'}}, 'step': 1440, 'title_text': '网站点击量统计', 'step_count': 7}
+[    INFO]-[2017-05-08 15:30:24,020]-Init.py :Line:16 : start sys ,init DB_ds
+[    INFO]-[2017-05-08 15:30:24,036]-DB_init.py :Line:33 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-08 15:30:24,036]-DB_init.py :Line:33 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 15:30:24,036]-DB_init.py :Line:33 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 15:30:24,036]-DB_init.py :Line:33 : init DB_ds , insert data:BBT:BBT
+[   DEBUG]-[2017-05-08 15:30:24,233]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 15:30:24,233]-Service.py :Line:31 : the service request parameter : {'step_count': 7, 'legend_infos': {'保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click', 'project_id': 'YXYBB'}, '保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click', 'project_id': 'BBT'}}, 'step': 1440, 'filter_infos': {'key2': {'value': 'value', 'relation': 'relation'}, 'key1': {'value': 'value', 'relation': 'relation'}}, 'title_text': '网站点击量统计', 'type': 'line'}
+[    INFO]-[2017-05-08 16:37:48,954]-DB_init.py :Line:59 : start sys , init DB_ds 
+[    INFO]-[2017-05-08 16:37:48,978]-DB_init.py :Line:34 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 16:37:48,979]-DB_init.py :Line:34 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-08 16:37:48,979]-DB_init.py :Line:34 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-08 16:37:48,979]-DB_init.py :Line:34 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 16:37:48,980]-DB_init.py :Line:61 : start sys , compute all count data 
+[    INFO]-[2017-05-08 16:38:03,245]-DB_init.py :Line:59 : start sys , init DB_ds 
+[    INFO]-[2017-05-08 16:38:03,253]-DB_init.py :Line:34 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-08 16:38:03,254]-DB_init.py :Line:34 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-08 16:38:03,254]-DB_init.py :Line:34 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-08 16:38:03,254]-DB_init.py :Line:34 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-08 16:38:03,257]-DB_init.py :Line:61 : start sys , compute all count data 
+[   DEBUG]-[2017-05-08 16:38:07,904]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 16:38:07,904]-Service.py :Line:31 : the service request parameter : {'step': 1440, 'step_count': 7, 'title_text': '网站点击量统计', 'legend_infos': {'保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB', 'project_id': 'YXYBB'}, '保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT', 'project_id': 'BBT'}}, 'type': 'line', 'filter_infos': {'key2': {'value': 'value', 'relation': 'relation'}, 'key1': {'value': 'value', 'relation': 'relation'}}}
+[   DEBUG]-[2017-05-08 16:38:42,005]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-08 16:38:42,006]-Service.py :Line:31 : the service request parameter : {'step': 1440, 'step_count': 7, 'title_text': '网站点击量统计', 'legend_infos': {'保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB', 'project_id': 'YXYBB'}, '保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT', 'project_id': 'BBT'}}, 'type': 'line', 'filter_infos': {'key2': {'value': 'value', 'relation': 'relation'}, 'key1': {'value': 'value', 'relation': 'relation'}}}

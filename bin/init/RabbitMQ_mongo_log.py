@@ -31,7 +31,7 @@ import time
 import os
 from bin.until import Mongo
 from bin.until import Logger
-from bin.logic import Statistics_BO
+from bin.logic.BO import  statistical_BO
 import json
 
 L = Logger.getInstance()

@@ -22,5 +22,13 @@
     "dbname": "YXYBB",
     "user": "",
     "password": ""
+  },
+  "BBT": {
+    "type": "mongo",
+    "ip": "192.168.7.216",
+    "port": 27017,
+    "dbname": "BBT",
+    "user": "",
+    "password": ""
   }
 }

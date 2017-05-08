@@ -13,7 +13,7 @@ class Init(object):
         pass
 
     def init(self):
-        L.info("start sys ,init DB_ds")
-        DB_init.getInstance().init_DB_ds()
-        L.info("start receive mongodb log")
-        MongDB_log.getInstance().start()
+
+        DB_init.getInstance().start()
+        #L.info("start receive mongodb log")
+        #MongDB_log.getInstance().start()
