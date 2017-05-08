@@ -5,7 +5,7 @@ from bin import until
 
 
 class PR(object):
-    def __init__(self,**kwargs):
+    def __init__(self, **kwargs):
         self.kwargs = kwargs
         self.code = until.Code_OK
         self.msg = "ok"

@@ -6,5 +6,21 @@
     "dbname": "YXYBB_statistics",
     "user": "",
     "password": ""
+  },
+  "OAMP": {
+    "type": "mongo",
+    "ip": "192.168.7.216",
+    "port": 27017,
+    "dbname": "OAMP",
+    "user": "",
+    "password": ""
+  },
+  "YXYBB": {
+    "type": "mongo",
+    "ip": "192.168.7.216",
+    "port": 27017,
+    "dbname": "YXYBB",
+    "user": "",
+    "password": ""
   }
 }

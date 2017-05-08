@@ -8,11 +8,12 @@ import sys
 import os
 from bin.until import Path
 
+
 class FileUntil(object):
     def __init__(self):
         pass
 
-    def createFile(self,path,content):
+    def createFile(self, path, content):
         try:
             with codecs.open(path, 'w', encoding='utf-8') as tmpFile:
                 tmpFile.write(str(content))
@@ -20,7 +21,7 @@ class FileUntil(object):
             FormatPrint.printFalat('create ' + str(path) + ' fail')
             FormatPrint.printError("errorMsg:" + str(e))
 
-    def readFile(self,path):
+    def readFile(self, path):
         data = None
         try:
             with open(path, 'r') as tmpFile:
@@ -30,11 +31,12 @@ class FileUntil(object):
             FormatPrint.printError("errorMsg:" + str(e))
         return data
 
-    def delFile(self,path):
+    def delFile(self, path):
         pass
 
-    def Files(self,path):
+    def Files(self, path):
         pass
+
 
 def getInstance():
     return FileUntil()

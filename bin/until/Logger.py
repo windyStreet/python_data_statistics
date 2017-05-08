@@ -17,19 +17,19 @@ class Logger(logging.Logger):
         formatter = logging.Formatter('[%(levelname)8s]-[%(asctime)s]-%(filename)s :Line:%(lineno)d : %(message)s')
         # 日志文件名
         if filename is not None:
-            self.filename = filename
+            self.log_all = logPath + os.sep + filename
             # 创建一个handler，用于写入日志文件 (每天生成1个，保留30天的日志)
-            fh = logging.handlers.TimedRotatingFileHandler(self.filename, 'D', 1, 30)
-            fh.suffix = "%Y%m%d-%H%M.log"
-            #fh = logging.handlers.RotatingFileHandler(self.log_all, mode='a', maxBytes=20 * 1024, backupCount=100, encoding=None, delay=0)
-            fh.setLevel(logging.DEBUG)
-            fh.setFormatter(formatter)  # 定义handler的输出格式
-            self.addHandler(fh)  # 给logger添加handler
+            # fh = logging.handlers.TimedRotatingFileHandler(self.filename, 'D', 1, 30)
+            # fh.suffix = "%Y%m%d-%H%M.log"
+            # # fh = logging.handlers.RotatingFileHandler(self.log_all, mode='a', maxBytes=20 * 1024, backupCount=100, encoding=None, delay=0)
+            # fh.setLevel(logging.DEBUG)
+            # fh.setFormatter(formatter)  # 定义handler的输出格式
+            # self.addHandler(fh)  # 给logger添加handler
 
         # # 创建一个handler，用于写入日志文件 (每天生成1个，保留30天的日志)
         fh_all = logging.handlers.TimedRotatingFileHandler(self.log_all, 'D', 1, 30)
         fh_all.suffix = "%Y%m%d-%H%M.log"
-        #fh_all = logging.handlers.RotatingFileHandler(self.log_all, mode='a', maxBytes=20 * 1024, backupCount=100, encoding=None, delay=0)
+        # fh_all = logging.handlers.RotatingFileHandler(self.log_all, mode='a', maxBytes=20 * 1024, backupCount=100, encoding=None, delay=0)
         fh_all.setLevel(logging.DEBUG)
         fh_all.setFormatter(formatter)  # 定义handler的输出格式
         self.addHandler(fh_all)

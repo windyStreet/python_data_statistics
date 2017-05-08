@@ -8,13 +8,14 @@ from bin.until import PR
 from bin import until
 import json
 
-L=Logger.getInstance()
+L = Logger.getInstance()
 operator = \
     {
         "logic": Service_logic().logic,
         "xx": Service_logic().xx,
         "line_test": Service_logic().line_test
     }
+
 
 class Service(tornado.web.RequestHandler):
     def get(self):

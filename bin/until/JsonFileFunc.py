@@ -4,7 +4,9 @@
 from bin.until import Logger
 import json
 import codecs
+
 L = Logger.getInstance()
+
 
 class JsonFileFunc(object):
     def __init__(self):

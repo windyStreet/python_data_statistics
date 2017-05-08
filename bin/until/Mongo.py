@@ -8,8 +8,10 @@ import os
 
 path = Path.getInstance().confDirPath + os.sep + "DB.json"
 _db_info = JsonFileFunc.getInstance().readFile(path)
+
+
 class Mongo(object):
-    def __init__(self, table=None, ds=None,ip=None, port=None, dbname=None):
+    def __init__(self, table=None, ds=None, ip=None, port=None, dbname=None):
         if ds is None:
             ds = "base"
         if ip is None:
@@ -20,15 +22,16 @@ class Mongo(object):
             dbname = _db_info[ds]["dbname"]
         if table is None:
             table = "default"
-        user=_db_info[ds]["user"]
-        password=_db_info[ds]["password"]
+        user = _db_info[ds]["user"]
+        password = _db_info[ds]["password"]
         client = pymongo.MongoClient(ip, port)
         dbname = client[dbname]
         self.collection = dbname[table]
         pass
 
-def getInstance(table, ip=None, ds=None , port=None, dbname=None):
-    return Mongo(table, ds,ip, port, dbname)
+
+def getInstance(table, ip=None, ds=None, port=None, dbname=None):
+    return Mongo(table, ds, ip, port, dbname)
 
 
 if __name__ == "__main__":

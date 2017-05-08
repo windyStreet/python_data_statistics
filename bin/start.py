@@ -3,14 +3,14 @@
 
 from bin.service.Service import *
 from bin.service.Html_service import *
-from bin.until import Path
 from tornado.options import define, options
-import threading
+from bin.init import Init
 
 P = Path.getInstance()
 define("port", default=8002, help="run on the given port", type=int)
 
 if __name__ == "__main__":
+    Init.Init().init()  # 系统初始化
     tornado.options.parse_command_line()
     app = tornado.web.Application(
         handlers=[(r"/service", Service),

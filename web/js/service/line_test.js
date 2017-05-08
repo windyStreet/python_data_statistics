@@ -1,12 +1,32 @@
 function init(){
+    jso = {}
+    jso["key1"]={"value":"value","relation":"relation"}
+    jso["key2"]={"value":"value","relation":"relation"}
+    jso["key3"]={"value":"value","relation":"relation"}
+
     data={
         "method":"line_test",
         "data":{
             "type":"line",
             "step_count":7,
             "step":60*24,
-            "legend_datas":["保宝点击量"],
-            "title_text":"保宝网数据统计-点击量"
+            "statistic_type":"click",
+            //"filter":[{"key":"key","value":"value","relation":"relation"},{"key":"key","value":"value","relation":"relation"}]
+            "filter":{"key1":{"value":"value","relation":"relation"},"key2":{"value":"value","relation":"relation"}}
+            "legend_infos":
+            {
+                "保宝网点击量":
+                {
+                    "project_id":"YXYBB",
+                    "project_name":"YXYBB",
+                },
+                "保宝app点击量":
+                {
+                    "project_id":"BBT",
+                    "project_name":"BBT",
+                }
+            },
+            "title_text":"网站点击量统计"
            }
     }
     asyncRequest(data, func1,null)

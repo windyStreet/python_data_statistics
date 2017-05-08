@@ -7,13 +7,14 @@ L = Logger.getInstance()
 
 
 class Line(object):
-    def __init__(self, collection, _legend_datas, _step, _step_count, _title_text, _type):
+    def __init__(self, collection, _legend_datas, _step, _step_count, _title_text, _type, _filter_others=[]):
         self._legend_datas = _legend_datas
         self._step_count = _step_count
         self._step = _step
         self.collection = collection
         self._title_text = _title_text
         self._type = _type
+        self._filter_others = _filter_others
 
     def getLineChartData(self):
         series = []
@@ -34,13 +35,14 @@ class Line(object):
                 _x_it = _x_it.strftime('%Y-%m-%d %H:%M:%S.%f')
                 _filter = \
                     {
-                        "name": "YXYBB_click",
                         "createtime":
                             {
                                 "$gt": _x_it,
                                 "$lt": _x_it_1
                             }
                     }
+                for _filter_other in self._filter_others:
+                    _filter[_filter_other["key"]] = _filter_other["value"]
                 L.debug(_filter)
                 L.debug(self.collection.find(_filter).count())
                 series_data.append(self.collection.find(_filter).count())
@@ -66,11 +68,14 @@ class Line(object):
         }
         return _result
 
-def getInsatnce(collection, _legend_datas=None, _step=60, _step_count=7, _title_text="数据统计", _type="line"):
+
+def getInsatnce(collection, _legend_datas=None, _step=60, _step_count=7, _title_text="数据统计", _type="line", _filter_others=[]):
     if collection is None:
         L.warn("init Line  , not connection OBJ")
         return None
     if _legend_datas is None:
         L.warn("init Line  , not _legend_datas par")
         return None
-    return Line(collection, _legend_datas, _step, _step_count, _title_text, _type)
+    if _filter_others is None:
+        L.warn("init Line  , not _filter_others par , will get all datas")
+    return Line(collection, _legend_datas, _step, _step_count, _title_text, _type, _filter_others)

@@ -48,7 +48,7 @@ class Statistics_OB(object):
 
     def setUpdateTime(self, updatetime=None):
         if updatetime is None:
-            self.updatetime =datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+            self.updatetime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
         else:
             self.updatetime = updatetime
         return self
