@@ -5,7 +5,6 @@ from bin.until import Logger
 from bin.until import Path
 from bin.until import JsonFileFunc
 from bin.until import Mongo
-from bin.logic.BO import statistical_item_BO
 import threading
 import os
 import time
@@ -44,18 +43,17 @@ class DB_init(object):
 
     # 计算同一个步长的数据（每次开启一个线程进行处理）
     def compute_step_infos(self, statistical_step_datas):
-        #print("BB" + str(statistical_step_datas))
+        # print("BB" + str(statistical_step_datas))
         while True:
             step = 60  # 默认一个小时，方式出现死循环问题
             for statistical_step_data in statistical_step_datas:
-                #step = statistical_step_data['statistical_step']
+                # step = statistical_step_data['statistical_step']
                 step = 6
-                #print(statistical_step_data)
+                # print(statistical_step_data)
                 L.debug(statistical_step_data)
             L.debug(threading.current_thread().getName())
             time.sleep(step * 1)
         pass
-
 
     # 计算所有的统计数据
     '''
@@ -164,8 +162,20 @@ def getInstance():
     return DB_init()
 
 
+def printInfo(msg):
+    while True:
+        time.sleep(2)
+        print(msg)
+
+
 if __name__ == "__main__":
-    #DB_init().statistical_item_init()
-    for i in range(3):
-        statistical_step_datas = [i+1]
-        DB_init().compute_step_infos(statistical_step_datas=statistical_step_datas)
+    # DB_init().statistical_item_init()
+    # for i in range(3):
+    #     statistical_step_datas = [i + 1]
+        # DB_init().compute_step_infos(statistical_step_datas=statistical_step_datas)
+    msg = "aaa"
+    threading.Thread(target=printInfo, args=(msg,))
+    msg = "bbb"
+    threading.Thread(target=printInfo, args=(msg,))
+    msg = "ccc"
+    threading.Thread(target=printInfo, args=(msg,))
