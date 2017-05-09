@@ -56,6 +56,7 @@ class DB_init(object):
             time.sleep(step * 1)
         pass
 
+
     # 计算所有的统计数据
     '''
     statistical_item={
