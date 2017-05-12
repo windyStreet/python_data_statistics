@@ -16,11 +16,12 @@ class JsonFileFunc(object):
     def readFile(self, filePath):
         jsonData = None
         try:
-            with open(filePath, 'r') as tmpFile:
+            with open(filePath, 'r',encoding='utf-8') as tmpFile:
+                print(tmpFile)
                 jsonData = json.load(tmpFile)
         except Exception as e:
-            L.printError("read [ " + str(filePath) + " ] not exists")
-            L.printError("errorMsg:" + str(e))
+            L.error("read [ " + str(filePath) + " ] not exists")
+            L.error("errorMsg:" + str(e))
         return jsonData
 
     # create json File
@@ -29,8 +30,8 @@ class JsonFileFunc(object):
             with codecs.open(filePath, 'w', encoding='utf-8') as tmpFile:
                 tmpFile.write(json.dumps(data, ensure_ascii=False, indent=4))
         except Exception as e:
-            L.printFalat('create ' + str(filePath) + ' fail')
-            L.printError("errorMsg:" + str(e))
+            L.error('create ' + str(filePath) + ' fail')
+            L.error("errorMsg:" + str(e))
 
 
 def getInstance():

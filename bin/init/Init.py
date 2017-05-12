@@ -16,3 +16,5 @@ class Init(object):
         DB_init.getInstance().start()
         L.info("start receive mongodb log")
         MongDB_log.getInstance().start()
+        pass
+

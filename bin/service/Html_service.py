@@ -3,8 +3,8 @@
 
 import tornado.web
 from bin.until import Path
-
-htmlPath = Path.getInstance().htmlPath
+import os
+htmlPath = Path.getInstance().htmlPath+os.sep
 
 
 class index(tornado.web.RequestHandler):

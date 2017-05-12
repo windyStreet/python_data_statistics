@@ -93,7 +93,10 @@ class Service_logic(object):
             ds = logic.project_ds_info[_project_name]  # 查询数据源
             table = _project_name + "_" + _statistic_type
             self_collection = Mongo.getInstance(table=table, ds=ds).collection
-            _filter_infos['type'] = {"value": _statistic_type, "relation": DBCODE.eq}
+            _filter_infos = []
+            _filter = {"key": "type", "value": _statistic_type, "relation": DBCODE.eq}
+            _filter_infos.append(_filter.copy())
+
             _search_filter_infos[_legend_data] = {
                 "project_name": "_project_name",
                 "self_collection": self_collection,  # 连接额外数据源

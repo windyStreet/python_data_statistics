@@ -66,16 +66,6 @@ class RabbitMQ_mongo_log(object):
                               no_ack=False)
         channel.start_consuming()
 
-    def callback(self, ch, method, properties, body):
-        print(" [x] Received %r" % body)
-        print(str(body, encoding="utf-8"))
-        # time.sleep(1)
-        collection = Mongo.getInstance(table="YXYBB_interface", dbname="YXYBB").collection
-        collection.insert(json.loads(str(body, encoding="utf-8")))
-        ch.basic_ack(delivery_tag=method.delivery_tag)
-        # _data = Statistics_BO.getInstance().setName("YXYBB_interface").setType("interface").setContent(json.loads(str(body, encoding="utf-8"))).json
-        # collection.insert(_data)
-
 
 def getInstance():
     return RabbitMQ_mongo_log()

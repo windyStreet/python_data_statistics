@@ -1,505 +1,135 @@
-[   DEBUG]-[2017-05-09 15:33:12,915]-DB_init.py :Line:54 : {'project_name': 'YXYBB', 'statistical_step': 60, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_name': None, 'updatetime': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc80'), 'statistical_start_time': None}
-[   DEBUG]-[2017-05-09 15:33:12,915]-DB_init.py :Line:54 : {'project_name': 'YXYBB', 'statistical_step': 360, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_name': None, 'updatetime': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc81'), 'statistical_start_time': None}
-[   DEBUG]-[2017-05-09 15:33:12,915]-DB_init.py :Line:54 : {'project_name': 'YXYBB', 'statistical_step': 360, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_name': None, 'updatetime': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc84'), 'statistical_start_time': None}
-[   DEBUG]-[2017-05-09 15:33:12,916]-DB_init.py :Line:54 : {'project_name': 'YXYBB', 'statistical_step': 720, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_name': None, 'updatetime': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_start_time': None}
-[   DEBUG]-[2017-05-09 15:33:12,916]-DB_init.py :Line:54 : {'project_name': 'YXYBB', 'statistical_step': 720, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_name': None, 'updatetime': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_start_time': None}
-[   DEBUG]-[2017-05-09 15:33:12,916]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:33:12,916]-DB_init.py :Line:54 : {'project_name': 'YXYBB', 'statistical_step': 720, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_name': None, 'updatetime': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_start_time': None}
-[   DEBUG]-[2017-05-09 15:33:12,916]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:33:12,917]-DB_init.py :Line:55 : Thread-3
-[    INFO]-[2017-05-09 15:33:40,870]-DB_init.py :Line:154 : start sys , init DB_ds 
-[    INFO]-[2017-05-09 15:33:40,874]-DB_init.py :Line:37 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-09 15:33:40,874]-DB_init.py :Line:37 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-09 15:33:40,874]-DB_init.py :Line:37 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-09 15:33:40,874]-DB_init.py :Line:37 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-09 15:33:40,875]-DB_init.py :Line:156 : start sys , init statistical_item
-[   DEBUG]-[2017-05-09 15:33:40,895]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc80'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 60}
-[   DEBUG]-[2017-05-09 15:33:40,895]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc81'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 360}
-[   DEBUG]-[2017-05-09 15:33:40,895]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc84'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 360}
-[   DEBUG]-[2017-05-09 15:33:40,896]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:40,896]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:40,896]-DB_init.py :Line:55 : Thread-1
-[    INFO]-[2017-05-09 15:33:40,896]-DB_init.py :Line:158 : start sys , compute all count data 
-[   DEBUG]-[2017-05-09 15:33:40,896]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:40,896]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:33:40,898]-DB_init.py :Line:55 : Thread-3
-[    INFO]-[2017-05-09 15:33:40,923]-Init.py :Line:17 : start receive mongodb log
-[   DEBUG]-[2017-05-09 15:33:46,897]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:46,898]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:46,898]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:46,898]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:46,899]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:33:46,899]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:46,899]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:46,900]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:33:46,900]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:33:52,900]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:52,900]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:52,901]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:33:52,902]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:52,902]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:52,902]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:52,902]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:52,903]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:33:52,903]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:33:58,901]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:58,901]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:58,901]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:33:58,903]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:58,903]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:58,903]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:33:58,904]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:58,904]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:33:58,904]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:34:04,903]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:04,903]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:04,904]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:34:04,905]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:04,905]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:04,906]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:04,906]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:34:04,907]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:04,909]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:34:10,905]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:10,905]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:10,905]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:34:10,908]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:10,908]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:10,908]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:34:10,910]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:10,910]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:10,910]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:34:16,906]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:16,907]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:16,908]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:34:16,910]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:16,910]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:16,911]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:16,911]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:34:16,912]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:16,913]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:34:22,911]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:22,911]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:22,911]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:34:22,913]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:22,913]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:22,913]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:34:22,914]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:22,914]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:22,914]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:34:28,913]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:28,913]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:28,914]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:34:28,915]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:28,915]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:28,915]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:34:28,916]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:28,917]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:28,917]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:34:34,915]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:34,915]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:34,915]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:34:34,917]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:34,917]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:34,917]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:34:34,918]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:34,918]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:34,918]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:34:40,917]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:40,917]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:40,917]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:34:40,919]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:40,919]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:40,919]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:34:40,920]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:40,920]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:40,920]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:34:46,918]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:46,918]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:46,918]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:34:46,920]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:46,920]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:46,920]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:34:46,921]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:46,921]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:46,921]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:34:52,919]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:52,919]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:52,919]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:34:52,921]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:52,921]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:52,921]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:34:52,922]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:52,922]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:52,922]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:34:58,921]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:58,921]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:58,921]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:34:58,923]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:58,923]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:58,923]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:34:58,924]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:58,924]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:34:58,925]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:35:04,922]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:04,922]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:04,922]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:35:04,923]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:04,923]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:04,924]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:35:04,925]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:04,926]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:04,926]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:35:10,923]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:10,923]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:10,923]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:35:10,924]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:10,924]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:10,924]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:35:10,927]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:10,927]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:10,927]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:35:16,925]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:16,926]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:16,927]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:16,927]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:35:16,927]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:16,928]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:35:16,929]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:16,929]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:16,930]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:35:22,929]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:22,929]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:22,930]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:22,931]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:35:22,931]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:22,931]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:22,933]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:35:22,933]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:22,934]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:35:28,933]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:28,933]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:28,933]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:35:28,935]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:28,935]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:28,935]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:28,936]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:28,936]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:35:28,937]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:35:34,935]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:34,935]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:34,935]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:35:34,938]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:34,938]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:34,938]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:35:34,939]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:34,939]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:34,939]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:35:40,935]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:40,935]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:40,935]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:35:40,938]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:40,939]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:40,939]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:40,940]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:40,940]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:35:40,941]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:35:46,937]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:46,937]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:46,937]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:35:46,943]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:46,943]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:46,943]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:46,943]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:46,943]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:35:46,943]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:35:52,938]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:52,938]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:52,938]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:35:52,945]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:52,945]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:52,946]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:52,946]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:52,947]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:35:52,947]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:35:58,939]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:58,939]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:58,940]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:35:58,949]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:58,949]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:58,950]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:58,951]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:35:58,952]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:35:58,952]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:36:04,941]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:04,941]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:04,942]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:36:04,953]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:04,953]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:04,953]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:04,954]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:04,954]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:36:04,954]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:36:10,944]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:10,944]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:10,944]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:36:10,956]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:10,956]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:10,956]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:10,957]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:10,957]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:36:10,958]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:36:16,945]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:16,946]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:16,946]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:36:16,959]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:16,959]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:16,959]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:16,960]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:16,960]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:36:16,960]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:36:22,947]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:22,948]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:22,948]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:36:22,962]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:22,962]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:22,964]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:22,963]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:22,965]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:36:22,965]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:36:28,950]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:28,950]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:28,951]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:36:28,967]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:28,967]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:28,968]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:28,968]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:28,968]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:36:28,969]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:36:34,952]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:34,952]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:34,952]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:36:34,970]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:34,970]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:34,971]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:34,972]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:34,973]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:36:34,974]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:36:40,954]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:40,954]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:40,954]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:36:40,975]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:40,976]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:40,976]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:40,977]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:40,978]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 15:36:40,978]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:36:46,955]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:46,955]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:46,956]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 15:36:46,979]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:46,981]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'interface', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:46,982]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:46,983]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_start_time': None, 'statistical_type': 'click', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'project_name': 'YXYBB', 'createtime': '2017-05-09 10:58:36.666651', 'statistical_step': 720}
-[   DEBUG]-[2017-05-09 15:36:46,984]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 15:36:46,985]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:42:32,144]-DB_init.py :Line:54 : {'createtime': '2017-05-09 10:58:36.666651', '_id': ObjectId('59113063b871b824f40ddc80'), 'statistical_name': None, 'statistical_step': 60, 'project_name': 'YXYBB', 'statistical_start_time': None, 'updatetime': None, 'statistical_type': 'interface'}
-[   DEBUG]-[2017-05-09 18:42:32,145]-DB_init.py :Line:54 : {'createtime': '2017-05-09 10:58:36.666651', '_id': ObjectId('59113063b871b824f40ddc81'), 'statistical_name': None, 'statistical_step': 360, 'project_name': 'YXYBB', 'statistical_start_time': None, 'updatetime': None, 'statistical_type': 'interface'}
-[   DEBUG]-[2017-05-09 18:42:32,145]-DB_init.py :Line:54 : {'createtime': '2017-05-09 10:58:36.666651', '_id': ObjectId('59113063b871b824f40ddc84'), 'statistical_name': None, 'statistical_step': 360, 'project_name': 'YXYBB', 'statistical_start_time': None, 'updatetime': None, 'statistical_type': 'click'}
-[   DEBUG]-[2017-05-09 18:42:32,145]-DB_init.py :Line:54 : {'createtime': '2017-05-09 10:58:36.666651', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'updatetime': None, 'statistical_type': 'click'}
-[   DEBUG]-[2017-05-09 18:42:32,145]-DB_init.py :Line:54 : {'createtime': '2017-05-09 10:58:36.666651', '_id': ObjectId('59113063b871b824f40ddc82'), 'statistical_name': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'updatetime': None, 'statistical_type': 'interface'}
-[   DEBUG]-[2017-05-09 18:42:32,145]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 18:42:32,146]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:42:32,146]-DB_init.py :Line:54 : {'createtime': '2017-05-09 10:58:36.666651', '_id': ObjectId('59113063b871b824f40ddc85'), 'statistical_name': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'updatetime': None, 'statistical_type': 'click'}
-[   DEBUG]-[2017-05-09 18:42:32,146]-DB_init.py :Line:55 : Thread-3
-[    INFO]-[2017-05-09 18:42:38,737]-DB_init.py :Line:154 : start sys , init DB_ds 
-[    INFO]-[2017-05-09 18:42:38,741]-DB_init.py :Line:37 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-09 18:42:38,742]-DB_init.py :Line:37 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-09 18:42:38,742]-DB_init.py :Line:37 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-09 18:42:38,742]-DB_init.py :Line:37 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-09 18:42:38,743]-DB_init.py :Line:156 : start sys , init statistical_item
-[   DEBUG]-[2017-05-09 18:42:38,757]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 60, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc80')}
-[   DEBUG]-[2017-05-09 18:42:38,757]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 360, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc81')}
-[   DEBUG]-[2017-05-09 18:42:38,757]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 360, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc84')}
-[   DEBUG]-[2017-05-09 18:42:38,757]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:42:38,758]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:42:38,758]-DB_init.py :Line:55 : Thread-1
-[    INFO]-[2017-05-09 18:42:38,758]-DB_init.py :Line:158 : start sys , compute all count data 
-[   DEBUG]-[2017-05-09 18:42:38,758]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:42:38,758]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:42:38,759]-DB_init.py :Line:55 : Thread-3
-[    INFO]-[2017-05-09 18:42:38,763]-Init.py :Line:17 : start receive mongodb log
-[   DEBUG]-[2017-05-09 18:42:44,759]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:42:44,760]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:42:44,760]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:42:44,760]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:42:44,761]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:42:44,761]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 18:42:44,762]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:42:44,762]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:42:44,763]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 18:42:50,763]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:42:50,763]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:42:50,763]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 18:42:50,763]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:42:50,763]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:42:50,764]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:42:50,764]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:42:50,764]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:42:50,764]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 18:42:56,763]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:42:56,764]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:42:56,764]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 18:42:56,765]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:42:56,765]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:42:56,765]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:42:56,766]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:42:56,766]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 18:42:56,766]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:43:02,765]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:02,765]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:02,766]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 18:43:02,768]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:02,771]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:02,771]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:02,772]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:02,772]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 18:43:02,772]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:43:08,766]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:08,766]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:08,766]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 18:43:08,772]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:08,772]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:08,772]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 18:43:08,773]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:08,773]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:08,773]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:43:14,767]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:14,767]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:14,767]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 18:43:14,773]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:14,773]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:14,773]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:14,774]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:14,774]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 18:43:14,774]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:43:20,768]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:20,768]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:20,769]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 18:43:20,774]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:20,774]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:20,775]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:20,775]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:20,775]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:43:20,775]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 18:43:26,770]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:26,770]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:26,770]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 18:43:26,776]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:26,776]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:26,777]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:26,777]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:26,777]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 18:43:26,778]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:43:32,771]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:32,771]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:32,772]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 18:43:32,778]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:32,778]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:32,779]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:32,779]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:32,779]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 18:43:32,780]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:43:38,773]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:38,773]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:38,773]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 18:43:38,781]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:38,781]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:38,781]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:38,781]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:38,782]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 18:43:38,782]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:43:44,774]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:44,775]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:44,775]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 18:43:44,784]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:44,784]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:44,785]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:44,786]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:44,786]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:43:44,787]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 18:43:50,776]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:50,777]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:50,777]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 18:43:50,788]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:50,788]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:50,788]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:50,789]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:50,790]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:43:50,790]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 18:43:56,778]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:56,778]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:56,779]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 18:43:56,791]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:56,792]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:43:56,793]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:56,794]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:43:56,794]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 18:43:56,795]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:44:02,780]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:44:02,780]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:44:02,780]-DB_init.py :Line:55 : Thread-1
-[   DEBUG]-[2017-05-09 18:44:02,796]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:44:02,796]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:44:02,796]-DB_init.py :Line:55 : Thread-3
-[   DEBUG]-[2017-05-09 18:44:02,796]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'interface', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc82')}
-[   DEBUG]-[2017-05-09 18:44:02,796]-DB_init.py :Line:54 : {'updatetime': None, 'statistical_step': 720, 'project_name': 'YXYBB', 'statistical_start_time': None, 'createtime': '2017-05-09 10:58:36.666651', 'statistical_type': 'click', 'statistical_name': None, '_id': ObjectId('59113063b871b824f40ddc85')}
-[   DEBUG]-[2017-05-09 18:44:02,796]-DB_init.py :Line:55 : Thread-2
-[   DEBUG]-[2017-05-09 18:48:17,552]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:48:17,553]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:48:23,553]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:48:23,554]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:48:29,554]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:48:29,554]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:48:35,555]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:48:35,555]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:48:41,555]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:48:41,555]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:48:47,556]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:48:47,556]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:48:53,557]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:48:53,557]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:48:59,558]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:48:59,558]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:49:05,559]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:49:05,559]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:49:11,560]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:49:11,560]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:49:17,561]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:49:17,561]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:49:23,561]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:49:23,561]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:49:29,562]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:49:29,562]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:49:35,562]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:49:35,562]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:49:41,562]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:49:41,562]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:49:47,563]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:49:47,563]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:49:53,565]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:49:53,565]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:49:59,566]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:49:59,566]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:50:05,567]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:50:05,568]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:50:11,570]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:50:11,570]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:50:17,571]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:50:17,571]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:50:23,571]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:50:23,572]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:50:29,572]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:50:29,572]-DB_init.py :Line:55 : MainThread
-[   DEBUG]-[2017-05-09 18:50:35,572]-DB_init.py :Line:54 : 1
-[   DEBUG]-[2017-05-09 18:50:35,572]-DB_init.py :Line:55 : MainThread
+[    INFO]-[2017-05-12 15:29:02,628]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 15:29:02,633]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 15:29:02,633]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 15:29:02,633]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 15:29:02,633]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 15:29:02,634]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 15:29:02,635]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-12 15:29:13,769]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-12 15:29:13,770]-Service.py :Line:31 : the service request parameter : {'title_text': '网站点击量统计', 'legend_infos': {'保宝app点击量': {'project_id': 'BBT', 'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_id': 'YXYBB', 'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'filter_infos': {'key2': {'value': 'value', 'relation': 'relation'}, 'key1': {'value': 'value', 'relation': 'relation'}}, 'type': 'line', 'step': 1440, 'step_count': 7}
+[    INFO]-[2017-05-12 15:31:56,137]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 15:31:56,142]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 15:31:56,142]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 15:31:56,142]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 15:31:56,142]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 15:31:56,143]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 15:31:56,143]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 16:26:48,802]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 16:26:48,817]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 16:26:48,817]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 16:26:48,817]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 16:26:48,817]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 16:26:48,818]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 16:26:48,818]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 16:27:03,880]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 16:27:03,884]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 16:27:03,884]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 16:27:03,884]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 16:27:03,884]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 16:27:03,885]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 16:27:03,886]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 16:27:37,588]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 16:27:37,603]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 16:27:37,604]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 16:27:37,604]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 16:27:37,604]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 16:27:37,606]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 16:27:37,607]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 16:28:40,939]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 16:28:40,942]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 16:28:40,942]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 16:28:40,943]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 16:28:40,943]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 16:28:40,944]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 16:28:40,944]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 16:29:06,682]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 16:29:06,689]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 16:29:06,689]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 16:29:06,689]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 16:29:06,689]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 16:29:06,690]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 16:29:06,691]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 16:29:16,292]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 16:29:16,300]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 16:29:16,300]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 16:29:16,300]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 16:29:16,300]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 16:29:16,301]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 16:29:16,302]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 16:29:38,713]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 16:29:38,717]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 16:29:38,718]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 16:29:38,718]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 16:29:38,718]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 16:29:38,721]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 16:29:38,722]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 16:29:48,215]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 16:29:48,258]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 16:29:48,258]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 16:29:48,259]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 16:29:48,259]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 16:29:48,260]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 16:29:48,263]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 16:30:20,496]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 16:30:20,520]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 16:30:20,520]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 16:30:20,520]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 16:30:20,520]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 16:30:20,521]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 16:30:20,522]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 16:30:33,870]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 16:30:33,877]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 16:30:33,877]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 16:30:33,877]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 16:30:33,877]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 16:30:33,879]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 16:30:33,880]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 16:30:56,000]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 16:30:56,027]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 16:30:56,028]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 16:30:56,028]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 16:30:56,028]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 16:30:56,031]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 16:30:56,055]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 17:19:00,113]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 17:19:00,116]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 17:19:00,116]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 17:19:00,116]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 17:19:00,117]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 17:19:00,118]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 17:19:00,119]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 17:19:25,837]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 17:19:25,840]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 17:19:25,841]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 17:19:25,841]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 17:19:25,841]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 17:19:25,842]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 17:19:25,842]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 17:19:39,837]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 17:19:39,853]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 17:19:39,853]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 17:19:39,853]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 17:19:39,854]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 17:19:39,855]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 17:19:39,857]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 17:21:11,441]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 17:21:11,456]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 17:21:11,456]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 17:21:11,457]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 17:21:11,457]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 17:21:11,458]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 17:21:11,460]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 17:27:48,234]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 17:27:48,249]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 17:27:48,250]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 17:27:48,250]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 17:27:48,250]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 17:27:48,252]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 17:27:48,254]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-12 17:28:20,929]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-12 17:28:20,944]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-12 17:28:20,945]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-12 17:28:20,945]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-12 17:28:20,945]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-12 17:28:20,947]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-12 17:28:20,948]-Init.py :Line:17 : start receive mongodb log
