@@ -2,7 +2,7 @@
 # !-*- coding:utf-8 -*-
 
 from bin.init import DB_init
-from bin.init import MongDB_log
+from bin.init import MongoDB_log
 from bin.until import Logger
 
 L = Logger.getInstance()
@@ -15,6 +15,6 @@ class Init(object):
     def init(self):
         DB_init.getInstance().start()
         L.info("start receive mongodb log")
-        MongDB_log.getInstance().start()
+        MongoDB_log.getInstance().start()
         pass
 

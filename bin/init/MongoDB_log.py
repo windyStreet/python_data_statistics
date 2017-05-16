@@ -18,9 +18,7 @@ class MongDB_log(object):
     def __init__(self):
         pass
 
-    # @staticmethod
     def insert_log(self, ch, method, properties, body):
-        time.sleep(5)
         L.info("insert data:%s", body)
         collection = Mongo.getInstance(table="YXYBB_interface", dbname="YXYBB").collection
         collection.insert(json.loads(str(body, encoding="utf-8")))

@@ -20,4 +20,4 @@ RELATION_GT = "$gt"
 RELATION_GTE = "$gte"
 RELATION_NOT = "$not"
 RELATION_OR = "$or"
-
+RELATION_UPDATE = "$set"

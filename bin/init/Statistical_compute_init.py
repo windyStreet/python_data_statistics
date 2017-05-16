@@ -3,12 +3,16 @@
 
 import threading
 import queue
-import time
 from bin.until import Mongo
 from bin.until import Logger
 from bin.until import DBCODE
 from bin import logic
 from bin.until import Filter
+from bin.until import Time
+from bin.logic.BO import statistic_res_BO
+from bin.logic import BO
+from bin.logic.BO import statistical_item_BO
+import time
 
 L = Logger.getInstance("times-task.log")
 
@@ -28,42 +32,60 @@ class Statistical_compute_init(threading.Thread):
     # 统计任务处理
     def statistical_deal(self, pars):
         while True:
-            statistical_step = 60
+            sleep_time = 60 * 60
             for par in pars:
-                statistical_step = par['statistical_step']
-                project_name = par['project_name']
-                statistical_type = par['statistical_type']
-                statistical_start_time = par['statistical_start_time']
-                statistical_name = par['statistical_name']
-                L.debug("sleep %d s", int(statistical_step / 10))
+                _id = par['_id']
+                _item_conllection = Mongo.getInstance(table="statistical_item").collection
+                _item_bo = statistical_item_BO.getInstance()
+                _item_bo.setId(_id)
+                _item_filter = Filter.getInstance().filter("_id", _id, DBCODE.EQ)
+                _item_info = _item_conllection.find_one(_item_filter.filter_json())
+
+                statistical_step = _item_info['statistical_step']
+                sleep_time = statistical_step * 60
+                project_name = _item_info['project_name']
+                statistical_type = _item_info['statistical_type']
+                statistical_start_time = _item_info['statistical_start_time']
+                times = Time.getComputeTimes(statistical_start_time, statistical_step)
+
                 ds = logic.project_ds_info[project_name]
                 table = project_name + "_" + statistical_type
-
+                # 数据源数据，用于统计数据
                 collection = Mongo.getInstance(table=table, ds=ds).collection
+                documents = []
+                lastTime = None
+                L.debug("compute step is  %d s", statistical_step * 60)
+                for i in range(1, len(times)):
+                    lastTime = times[i]
+                    _f = Filter.getInstance()
+                    _f.filter("type", statistical_type, DBCODE.EQ)
+                    _f.filter("project", project_name, DBCODE.EQ)
+                    _f.filter("createtime", times[i - 1], DBCODE.GT)
+                    _f.filter("createtime", times[i], DBCODE.LT)
+                    _filter = _f.filter_json()
+                    count = collection.find(_filter).count()
+                    document_bo = statistic_res_BO.getInstance()
+                    document_bo.setStatistical_project(project_name)
+                    document_bo.setStatistical_time(times[i])
+                    document_bo.setStatistical_count(count)
+                    document_bo.setStatistical_step(statistical_step)
+                    document_bo.setStatistical_type(statistical_type)
+                    documents.append(document_bo.json())
+                if len(documents) > 0:
+                    res_collection = Mongo.getInstance(table=BO.BASE_statistic_res).collection
+                    res_collection.insert_many(documents=documents)  # 将结果插入到结果表中
+                else:
+                    L.debug("statistical_deal ,not get the insert data")
 
-                # _filter_infos = []
-                # _filter = {"key": "name", "value": statistical_name, "relation": DBCODE.eq}
-                # _filter = {"key": "project", "value": project_name, "relation": DBCODE.eq}
-                # _filter = {"key": "type", "value": statistical_type, "relation": DBCODE.eq}
-                # _filter = {"key": "createtime", "value": time_date, "relation": DBCODE.gt}
-                # _filter = {"key": "createtime", "value": time_date, "relation": DBCODE.lt}
-
-                _f = Filter.getInstance()
-                _f.filter("type", statistical_type, DBCODE.eq)
-                _f.filter("project", project_name, DBCODE.eq)
-                _filter_datas = _f.filter_datas()
-                print(_filter_datas)
-                print("123456")
-                # _filter_infos.append(_filter.copy())
-
-                collection.find({})
-
-                # 构造查询
-                # 查询
-                # 新增数据或者更新数据
-
-            time.sleep(statistical_step * 60)
-        pass
+                # 去更新statistical_item表
+                if lastTime is not None:
+                    _item_bo_1 = statistical_item_BO.getInstance()
+                    _item_bo_1.setStatistical_start_time(lastTime)
+                    _item_conllection.update_one(_item_filter.filter_json(), _item_bo_1.update_json)
+                else:
+                    L.debug("statistical_deal ,not get last time")
+            L.debug("thread will sleep %s s", sleep_time)
+            time.sleep(sleep_time)
 
     # 每一类分组启动一个线程进行处理任务
     def statistical_compute(self, pars=None):
@@ -77,7 +99,7 @@ class Statistical_compute_init(threading.Thread):
 
     def run(self):
         while not self.thread_stop:
-            print("thread%d %s: waiting for task" % (self.ident, self.name))
+            L.debug("thread%d %s: waiting for task" % (self.ident, self.name))
             try:
                 task = self.queue.get(block=True, timeout=10)  # 接收消息 采用阻塞式 超时时间为10s
             except queue.Empty:
@@ -138,11 +160,6 @@ class Statistical_compute_init(threading.Thread):
         tasks.append(task)
         return tasks
 
-    # 计算全部定时任务内容代码开始启动 (启动一个线程来进行处理)
-    def start_inti(self):
-        t = threading.Thread(target=self.product_consum)
-        t.start()
-
     # 队列的生产消费
     def product_consum(self):
         tasks = self.getTasks()  # 获取任务信息
@@ -155,7 +172,23 @@ class Statistical_compute_init(threading.Thread):
         # self.queue.join()  # 等待所有任务完成
         L.info("item compute task add finished ")
 
+    # 计算全部定时任务内容代码开始启动 (启动一个线程来进行处理)
+    def start_init(self):
+        t = threading.Thread(target=self.product_consum)
+        t.start()
+
 
 if __name__ == "__main__":
-    Statistical_compute_init().start_inti()
+    # item_bo = statistical_item_BO.getInstance()
+    # collection = Mongo.getInstance(table=BO.BASE_statistical_item).collection
+    # datas = []
+    # data_1 = item_bo.setProject_name("YXYBB").setStatistical_type("interface").setStatistical_step(5).setStatistical_start_time("2017-05-05 00:00:00.000").json
+    # data_2 = item_bo.setProject_name("YXYBB").setStatistical_type("interface").setStatistical_step(60).setStatistical_start_time("2017-05-05 00:00:00.000").json
+    # data_3 = item_bo.setProject_name("YXYBB").setStatistical_type("interface").setStatistical_step(60*6).setStatistical_start_time("2017-05-05 00:00:00.000").json
+    # datas.append(data_1)
+    # datas.append(data_2)
+    # datas.append(data_3)
+    # collection.insert_many(datas)
+    ###################################
+    # Statistical_compute_init().start_init()
     pass

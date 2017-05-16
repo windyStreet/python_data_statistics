@@ -6,18 +6,16 @@ function init(){
         "data":{
             "type":"line",
             "step_count":7,
-            "step":60*24,
+            "step":60,
             "filter_infos":{"key1":{"value":"value","relation":"relation"},"key2":{"value":"value","relation":"relation"}},
             "legend_infos":{
                 "保宝网点击量":
                 {
-                    "project_id":"YXYBB",
                     "project_name":"YXYBB",
                     "statistic_type":"click"
                 },
                 "保宝app点击量":
                 {
-                    "project_id":"BBT",
                     "project_name":"BBT",
                     "statistic_type":"click"
                 }

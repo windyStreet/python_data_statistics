@@ -1,135 +1,424 @@
-[    INFO]-[2017-05-12 15:29:02,628]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 15:29:02,633]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 15:29:02,633]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 15:29:02,633]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 15:29:02,633]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 15:29:02,634]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 15:29:02,635]-Init.py :Line:17 : start receive mongodb log
-[   DEBUG]-[2017-05-12 15:29:13,769]-Service.py :Line:30 : the service request method : line_test
-[   DEBUG]-[2017-05-12 15:29:13,770]-Service.py :Line:31 : the service request parameter : {'title_text': '网站点击量统计', 'legend_infos': {'保宝app点击量': {'project_id': 'BBT', 'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_id': 'YXYBB', 'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'filter_infos': {'key2': {'value': 'value', 'relation': 'relation'}, 'key1': {'value': 'value', 'relation': 'relation'}}, 'type': 'line', 'step': 1440, 'step_count': 7}
-[    INFO]-[2017-05-12 15:31:56,137]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 15:31:56,142]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 15:31:56,142]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 15:31:56,142]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 15:31:56,142]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 15:31:56,143]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 15:31:56,143]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 16:26:48,802]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 16:26:48,817]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 16:26:48,817]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 16:26:48,817]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 16:26:48,817]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 16:26:48,818]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 16:26:48,818]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 16:27:03,880]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 16:27:03,884]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 16:27:03,884]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 16:27:03,884]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 16:27:03,884]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 16:27:03,885]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 16:27:03,886]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 16:27:37,588]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 16:27:37,603]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 16:27:37,604]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 16:27:37,604]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 16:27:37,604]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 16:27:37,606]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 16:27:37,607]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 16:28:40,939]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 16:28:40,942]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 16:28:40,942]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 16:28:40,943]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 16:28:40,943]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 16:28:40,944]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 16:28:40,944]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 16:29:06,682]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 16:29:06,689]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 16:29:06,689]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 16:29:06,689]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 16:29:06,689]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 16:29:06,690]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 16:29:06,691]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 16:29:16,292]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 16:29:16,300]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 16:29:16,300]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 16:29:16,300]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 16:29:16,300]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 16:29:16,301]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 16:29:16,302]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 16:29:38,713]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 16:29:38,717]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 16:29:38,718]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 16:29:38,718]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 16:29:38,718]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 16:29:38,721]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 16:29:38,722]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 16:29:48,215]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 16:29:48,258]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 16:29:48,258]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 16:29:48,259]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 16:29:48,259]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 16:29:48,260]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 16:29:48,263]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 16:30:20,496]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 16:30:20,520]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 16:30:20,520]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 16:30:20,520]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 16:30:20,520]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 16:30:20,521]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 16:30:20,522]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 16:30:33,870]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 16:30:33,877]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 16:30:33,877]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 16:30:33,877]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 16:30:33,877]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 16:30:33,879]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 16:30:33,880]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 16:30:56,000]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 16:30:56,027]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 16:30:56,028]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 16:30:56,028]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 16:30:56,028]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 16:30:56,031]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 16:30:56,055]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 17:19:00,113]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 17:19:00,116]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 17:19:00,116]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 17:19:00,116]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 17:19:00,117]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 17:19:00,118]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 17:19:00,119]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 17:19:25,837]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 17:19:25,840]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 17:19:25,841]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 17:19:25,841]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 17:19:25,841]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 17:19:25,842]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 17:19:25,842]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 17:19:39,837]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 17:19:39,853]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 17:19:39,853]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 17:19:39,853]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 17:19:39,854]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 17:19:39,855]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 17:19:39,857]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 17:21:11,441]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 17:21:11,456]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 17:21:11,456]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 17:21:11,457]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 17:21:11,457]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 17:21:11,458]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 17:21:11,460]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 17:27:48,234]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 17:27:48,249]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 17:27:48,250]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 17:27:48,250]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 17:27:48,250]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 17:27:48,252]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 17:27:48,254]-Init.py :Line:17 : start receive mongodb log
-[    INFO]-[2017-05-12 17:28:20,929]-DB_init.py :Line:42 : start sys , init DB_ds 
-[    INFO]-[2017-05-12 17:28:20,944]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
-[    INFO]-[2017-05-12 17:28:20,945]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
-[    INFO]-[2017-05-12 17:28:20,945]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
-[    INFO]-[2017-05-12 17:28:20,945]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
-[    INFO]-[2017-05-12 17:28:20,947]-DB_init.py :Line:50 : start sys , compute all count data 
-[    INFO]-[2017-05-12 17:28:20,948]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-15 16:07:25,673]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-15 16:07:25,677]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-15 16:07:25,677]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-15 16:07:25,677]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-15 16:07:25,677]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-15 16:07:25,678]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-15 16:07:25,679]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-15 16:10:37,796]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-15 16:10:37,810]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-15 16:10:37,810]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-15 16:10:37,810]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-15 16:10:37,810]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-15 16:10:37,811]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-15 16:10:37,812]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-15 16:11:41,010]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-15 16:11:41,019]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-15 16:11:41,019]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-15 16:11:41,019]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-15 16:11:41,019]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-15 16:11:41,021]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-15 16:11:41,023]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-15 16:24:24,186]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-15 16:24:24,202]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-15 16:24:24,202]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-15 16:24:24,203]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-15 16:24:24,203]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-15 16:24:24,205]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-15 16:24:24,206]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-15 16:26:45,066]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-15 16:26:45,072]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-15 16:26:45,073]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-15 16:26:45,073]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-15 16:26:45,073]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-15 16:26:45,075]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-15 16:26:45,076]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-15 16:27:02,119]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-15 16:27:02,124]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-15 16:27:02,125]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-15 16:27:02,125]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-15 16:27:02,125]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-15 16:27:02,127]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-15 16:27:02,128]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-15 16:27:54,022]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-15 16:27:54,037]-DB_init.py :Line:35 : init DB_ds , insert data:base:YXYBB_statistics
+[    INFO]-[2017-05-15 16:27:54,038]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-15 16:27:54,038]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-15 16:27:54,038]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-15 16:27:54,040]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-15 16:27:54,041]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-16 10:16:59,296]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 10:16:59,333]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 10:16:59,333]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 10:16:59,333]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 10:16:59,333]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 10:16:59,475]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 10:16:59,476]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-16 15:28:13,208]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 15:28:13,212]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 15:28:13,212]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 15:28:13,212]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 15:28:13,212]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 15:28:13,213]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 15:28:13,215]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-16 15:28:34,202]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 15:28:34,207]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 15:28:34,208]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 15:28:34,208]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 15:28:34,208]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 15:28:34,210]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 15:28:34,211]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-16 15:31:24,298]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 15:31:24,313]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 15:31:24,313]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 15:31:24,314]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 15:31:24,314]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 15:31:24,315]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 15:31:24,317]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-16 15:31:57,180]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 15:31:57,196]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 15:31:57,196]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 15:31:57,197]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 15:31:57,197]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 15:31:57,199]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 15:31:57,201]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-16 15:42:32,749]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 15:42:32,753]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 15:42:32,753]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 15:42:32,753]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 15:42:32,753]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 15:42:32,754]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 15:42:32,755]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-16 16:13:00,278]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:13:00,304]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:13:00,304]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:13:00,304]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:13:00,304]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:13:00,305]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:13:00,306]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-16 16:13:26,798]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:13:26,833]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:13:26,834]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:13:26,834]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:13:26,834]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:13:26,835]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:13:26,836]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-16 16:40:50,555]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:40:50,574]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:40:50,575]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:40:50,575]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:40:50,575]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:40:50,577]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:40:50,578]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-16 16:41:02,134]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:41:02,150]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:41:02,150]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:41:02,150]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:41:02,151]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:41:02,152]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:41:02,154]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 16:41:26,253]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:41:26,253]-Service.py :Line:31 : the service request parameter : {'title_text': '网站点击量统计', 'type': 'line', 'filter_infos': {'key2': {'relation': 'relation', 'value': 'value'}, 'key1': {'relation': 'relation', 'value': 'value'}}, 'step_count': 7, 'legend_infos': {'保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}, '保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}}, 'step': 60}
+[    INFO]-[2017-05-16 16:42:15,400]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:42:15,417]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:42:15,418]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:42:15,418]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:42:15,418]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:42:15,420]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:42:15,422]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 16:42:17,481]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:42:17,482]-Service.py :Line:31 : the service request parameter : {'title_text': '网站点击量统计', 'type': 'line', 'filter_infos': {'key2': {'relation': 'relation', 'value': 'value'}, 'key1': {'relation': 'relation', 'value': 'value'}}, 'step_count': 7, 'legend_infos': {'保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}, '保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}}, 'step': 60}
+[    INFO]-[2017-05-16 16:43:14,062]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:43:14,068]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:43:14,068]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:43:14,068]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:43:14,069]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:43:14,073]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:43:14,075]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 16:43:18,087]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:43:18,088]-Service.py :Line:31 : the service request parameter : {'title_text': '网站点击量统计', 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'step_count': 7, 'type': 'line', 'legend_infos': {'保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}, '保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}}, 'step': 60}
+[   DEBUG]-[2017-05-16 16:43:36,570]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:43:36,570]-Service.py :Line:31 : the service request parameter : {'title_text': '网站点击量统计', 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'step_count': 7, 'type': 'line', 'legend_infos': {'保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}, '保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}}, 'step': 60}
+[   DEBUG]-[2017-05-16 16:43:49,833]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:43:49,833]-Service.py :Line:31 : the service request parameter : {'title_text': '网站点击量统计', 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'step_count': 7, 'type': 'line', 'legend_infos': {'保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}, '保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}}, 'step': 60}
+[    INFO]-[2017-05-16 16:44:25,703]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:44:25,709]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:44:25,709]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:44:25,710]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:44:25,710]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:44:25,712]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:44:25,713]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-16 16:44:34,069]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:44:34,074]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:44:34,075]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:44:34,075]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:44:34,075]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:44:34,077]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:44:34,080]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-16 16:44:59,362]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:44:59,368]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:44:59,368]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:44:59,368]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:44:59,368]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:44:59,370]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:44:59,372]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 16:44:59,798]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:44:59,798]-Service.py :Line:31 : the service request parameter : {'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'type': 'line', 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'step_count': 7, 'step': 60, 'title_text': '网站点击量统计'}
+[   DEBUG]-[2017-05-16 16:45:08,486]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:45:08,487]-Service.py :Line:31 : the service request parameter : {'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'type': 'line', 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'step_count': 7, 'step': 60, 'title_text': '网站点击量统计'}
+[   DEBUG]-[2017-05-16 16:45:15,594]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:45:15,594]-Service.py :Line:31 : the service request parameter : {'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'type': 'line', 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'step_count': 7, 'step': 60, 'title_text': '网站点击量统计'}
+[    INFO]-[2017-05-16 16:46:35,580]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:46:35,595]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:46:35,595]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:46:35,595]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:46:35,596]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:46:35,597]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:46:35,599]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 16:46:35,697]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:46:35,698]-Service.py :Line:31 : the service request parameter : {'step_count': 7, 'step': 60, 'legend_infos': {'保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}, '保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}}, 'title_text': '网站点击量统计', 'type': 'line', 'filter_infos': {'key2': {'value': 'value', 'relation': 'relation'}, 'key1': {'value': 'value', 'relation': 'relation'}}}
+[    INFO]-[2017-05-16 16:46:54,710]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:46:54,726]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:46:54,726]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:46:54,726]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:46:54,727]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:46:54,728]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:46:54,731]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 16:47:04,700]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:47:04,700]-Service.py :Line:31 : the service request parameter : {'step': 60, 'step_count': 7, 'filter_infos': {'key2': {'value': 'value', 'relation': 'relation'}, 'key1': {'value': 'value', 'relation': 'relation'}}, 'type': 'line', 'title_text': '网站点击量统计', 'legend_infos': {'保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}, '保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}}}
+[    INFO]-[2017-05-16 16:47:42,701]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:47:42,727]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:47:42,727]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:47:42,727]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:47:42,728]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:47:42,729]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:47:42,731]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 16:47:51,299]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:47:51,300]-Service.py :Line:31 : the service request parameter : {'type': 'line', 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'step_count': 7, 'title_text': '网站点击量统计', 'legend_infos': {'保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}, '保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}}, 'step': 60}
+[    INFO]-[2017-05-16 16:52:42,912]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:52:42,928]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:52:42,928]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:52:42,928]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:52:42,929]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:52:42,930]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:52:42,931]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 16:52:43,051]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:52:43,051]-Service.py :Line:31 : the service request parameter : {'title_text': '网站点击量统计', 'step': 60, 'legend_infos': {'保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}, '保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}}, 'filter_infos': {'key2': {'value': 'value', 'relation': 'relation'}, 'key1': {'value': 'value', 'relation': 'relation'}}, 'type': 'line', 'step_count': 7}
+[   DEBUG]-[2017-05-16 16:53:20,782]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:53:20,783]-Service.py :Line:31 : the service request parameter : {'title_text': '网站点击量统计', 'step': 60, 'legend_infos': {'保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}, '保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}}, 'filter_infos': {'key2': {'value': 'value', 'relation': 'relation'}, 'key1': {'value': 'value', 'relation': 'relation'}}, 'type': 'line', 'step_count': 7}
+[    INFO]-[2017-05-16 16:53:56,511]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:53:56,531]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:53:56,532]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:53:56,532]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:53:56,532]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:53:56,534]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:53:56,537]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 16:53:56,564]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:53:56,568]-Service.py :Line:31 : the service request parameter : {'step': 60, 'title_text': '网站点击量统计', 'step_count': 7, 'legend_infos': {'保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}, '保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}}, 'type': 'line', 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}}
+[    INFO]-[2017-05-16 16:55:13,718]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:55:13,724]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:55:13,724]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:55:13,724]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:55:13,724]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:55:13,726]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:55:13,727]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 16:55:16,841]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:55:16,841]-Service.py :Line:31 : the service request parameter : {'step': 60, 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'title_text': '网站点击量统计', 'legend_infos': {'保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}, '保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}}, 'type': 'line', 'step_count': 7}
+[    INFO]-[2017-05-16 16:56:18,250]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:56:18,257]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:56:18,257]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:56:18,258]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:56:18,258]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:56:18,259]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:56:18,263]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 16:56:18,693]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:56:18,693]-Service.py :Line:31 : the service request parameter : {'step': 60, 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}, 'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'type': 'line', 'step_count': 7, 'title_text': '网站点击量统计'}
+[   DEBUG]-[2017-05-16 16:56:32,918]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:56:32,919]-Service.py :Line:31 : the service request parameter : {'step': 60, 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}, 'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'type': 'line', 'step_count': 7, 'title_text': '网站点击量统计'}
+[    INFO]-[2017-05-16 16:56:44,737]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:56:44,753]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:56:44,753]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:56:44,754]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:56:44,754]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:56:44,755]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:56:44,757]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 16:56:44,910]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:56:44,911]-Service.py :Line:31 : the service request parameter : {'step': 60, 'type': 'line', 'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'title_text': '网站点击量统计', 'step_count': 7, 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}}
+[    INFO]-[2017-05-16 16:57:27,809]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:57:27,815]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:57:27,815]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:57:27,815]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:57:27,816]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:57:27,818]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:57:27,820]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 16:57:30,119]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:57:30,120]-Service.py :Line:31 : the service request parameter : {'step': 60, 'type': 'line', 'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'title_text': '网站点击量统计', 'step_count': 7, 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}}
+[    INFO]-[2017-05-16 16:58:07,137]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 16:58:07,153]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 16:58:07,153]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 16:58:07,154]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 16:58:07,154]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 16:58:07,155]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 16:58:07,157]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 16:58:07,289]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 16:58:07,289]-Service.py :Line:31 : the service request parameter : {'legend_infos': {'保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}, '保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}}, 'step': 60, 'type': 'line', 'title_text': '网站点击量统计', 'filter_infos': {'key2': {'relation': 'relation', 'value': 'value'}, 'key1': {'relation': 'relation', 'value': 'value'}}, 'step_count': 7}
+[    INFO]-[2017-05-16 17:00:18,062]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 17:00:18,068]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 17:00:18,068]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 17:00:18,069]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 17:00:18,069]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 17:00:18,070]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 17:00:18,072]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 17:00:19,229]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 17:00:19,229]-Service.py :Line:31 : the service request parameter : {'legend_infos': {'保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}, '保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}}, 'step': 60, 'type': 'line', 'title_text': '网站点击量统计', 'filter_infos': {'key2': {'relation': 'relation', 'value': 'value'}, 'key1': {'relation': 'relation', 'value': 'value'}}, 'step_count': 7}
+[    INFO]-[2017-05-16 17:00:30,130]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 17:00:30,146]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 17:00:30,146]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 17:00:30,146]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 17:00:30,146]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 17:00:30,148]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 17:00:30,149]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 17:00:33,902]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 17:00:33,902]-Service.py :Line:31 : the service request parameter : {'step': 60, 'title_text': '网站点击量统计', 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}, 'type': 'line', 'step_count': 7, 'legend_infos': {'保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}, '保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}}}
+[   DEBUG]-[2017-05-16 17:00:58,814]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 17:00:58,814]-Service.py :Line:31 : the service request parameter : {'step': 60, 'title_text': '网站点击量统计', 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}, 'type': 'line', 'step_count': 7, 'legend_infos': {'保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}, '保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}}}
+[    INFO]-[2017-05-16 17:01:43,960]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 17:01:43,975]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 17:01:43,975]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 17:01:43,976]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 17:01:43,976]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 17:01:43,977]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 17:01:43,979]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 17:01:44,181]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 17:01:44,182]-Service.py :Line:31 : the service request parameter : {'step': 60, 'type': 'line', 'step_count': 7, 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'title_text': '网站点击量统计', 'legend_infos': {'保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}, '保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}}}
+[   DEBUG]-[2017-05-16 17:01:56,621]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 17:01:56,621]-Service.py :Line:31 : the service request parameter : {'step': 60, 'type': 'line', 'step_count': 7, 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'title_text': '网站点击量统计', 'legend_infos': {'保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}, '保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}}}
+[    INFO]-[2017-05-16 17:22:50,765]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 17:22:50,771]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 17:22:50,771]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 17:22:50,771]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 17:22:50,771]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 17:22:50,773]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 17:22:50,774]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 17:22:50,816]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 17:22:50,817]-Service.py :Line:31 : the service request parameter : {'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'type': 'line', 'title_text': '网站点击量统计', 'step': 60, 'legend_infos': {'保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}, '保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}}, 'step_count': 7}
+[    INFO]-[2017-05-16 17:23:22,313]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 17:23:22,328]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 17:23:22,329]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 17:23:22,329]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 17:23:22,329]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 17:23:22,331]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 17:23:22,332]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 17:23:29,808]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 17:23:29,809]-Service.py :Line:31 : the service request parameter : {'step_count': 7, 'type': 'line', 'title_text': '网站点击量统计', 'legend_infos': {'保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}, '保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}}, 'step': 60, 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}}
+[   DEBUG]-[2017-05-16 17:23:51,405]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 17:23:51,406]-Service.py :Line:31 : the service request parameter : {'step_count': 7, 'type': 'line', 'title_text': '网站点击量统计', 'legend_infos': {'保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}, '保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}}, 'step': 60, 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}}
+[    INFO]-[2017-05-16 17:24:22,391]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 17:24:22,407]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 17:24:22,407]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 17:24:22,407]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 17:24:22,407]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 17:24:22,409]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 17:24:22,411]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 17:24:22,427]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 17:24:22,428]-Service.py :Line:31 : the service request parameter : {'title_text': '网站点击量统计', 'legend_infos': {'保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}, '保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}}, 'step': 60, 'type': 'line', 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}, 'step_count': 7}
+[    INFO]-[2017-05-16 17:25:23,835]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 17:25:23,853]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 17:25:23,853]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 17:25:23,853]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 17:25:23,853]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 17:25:23,855]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 17:25:23,858]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 17:25:24,354]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 17:25:24,355]-Service.py :Line:31 : the service request parameter : {'step_count': 7, 'filter_infos': {'key2': {'relation': 'relation', 'value': 'value'}, 'key1': {'relation': 'relation', 'value': 'value'}}, 'step': 60, 'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'type': 'line', 'title_text': '网站点击量统计'}
+[    INFO]-[2017-05-16 17:56:21,842]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 17:56:21,859]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 17:56:21,859]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 17:56:21,859]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 17:56:21,860]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 17:56:21,863]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 17:56:21,865]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 17:56:22,002]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 17:56:22,002]-Service.py :Line:31 : the service request parameter : {'step': 60, 'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}, 'title_text': '网站点击量统计', 'step_count': 7, 'type': 'line'}
+[   DEBUG]-[2017-05-16 17:56:52,850]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 17:56:52,850]-Service.py :Line:31 : the service request parameter : {'step': 60, 'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}, 'title_text': '网站点击量统计', 'step_count': 7, 'type': 'line'}
+[   DEBUG]-[2017-05-16 17:57:44,005]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 17:57:44,005]-Service.py :Line:31 : the service request parameter : {'step': 60, 'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'filter_infos': {'key1': {'relation': 'relation', 'value': 'value'}, 'key2': {'relation': 'relation', 'value': 'value'}}, 'title_text': '网站点击量统计', 'step_count': 7, 'type': 'line'}
+[    INFO]-[2017-05-16 17:58:17,837]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 17:58:17,843]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 17:58:17,843]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 17:58:17,844]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 17:58:17,844]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 17:58:17,846]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 17:58:17,847]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 17:58:18,003]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 17:58:18,003]-Service.py :Line:31 : the service request parameter : {'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'step': 60, 'step_count': 7, 'type': 'line', 'filter_infos': {'key2': {'value': 'value', 'relation': 'relation'}, 'key1': {'value': 'value', 'relation': 'relation'}}, 'title_text': '网站点击量统计'}
+[   DEBUG]-[2017-05-16 18:00:08,115]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 18:00:08,115]-Service.py :Line:31 : the service request parameter : {'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'step': 60, 'step_count': 7, 'type': 'line', 'filter_infos': {'key2': {'value': 'value', 'relation': 'relation'}, 'key1': {'value': 'value', 'relation': 'relation'}}, 'title_text': '网站点击量统计'}
+[    INFO]-[2017-05-16 18:01:38,304]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 18:01:38,320]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 18:01:38,320]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 18:01:38,320]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 18:01:38,320]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 18:01:38,322]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 18:01:38,324]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 18:01:38,603]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 18:01:38,603]-Service.py :Line:31 : the service request parameter : {'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'step': 60, 'legend_infos': {'保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}, '保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}}, 'type': 'line', 'title_text': '网站点击量统计', 'step_count': 7}
+[   DEBUG]-[2017-05-16 18:02:14,300]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 18:02:14,301]-Service.py :Line:31 : the service request parameter : {'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'step': 60, 'legend_infos': {'保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}, '保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}}, 'type': 'line', 'title_text': '网站点击量统计', 'step_count': 7}
+[    INFO]-[2017-05-16 18:02:58,896]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 18:02:58,912]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 18:02:58,912]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 18:02:58,912]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 18:02:58,913]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 18:02:58,914]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 18:02:58,916]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 18:02:59,115]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 18:02:59,116]-Service.py :Line:31 : the service request parameter : {'type': 'line', 'step_count': 7, 'step': 60, 'legend_infos': {'保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}, '保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}}, 'filter_infos': {'key2': {'relation': 'relation', 'value': 'value'}, 'key1': {'relation': 'relation', 'value': 'value'}}, 'title_text': '网站点击量统计'}
+[   DEBUG]-[2017-05-16 18:03:06,427]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 18:03:06,427]-Service.py :Line:31 : the service request parameter : {'type': 'line', 'step_count': 7, 'step': 60, 'legend_infos': {'保宝网点击量': {'statistic_type': 'click', 'project_name': 'YXYBB'}, '保宝app点击量': {'statistic_type': 'click', 'project_name': 'BBT'}}, 'filter_infos': {'key2': {'relation': 'relation', 'value': 'value'}, 'key1': {'relation': 'relation', 'value': 'value'}}, 'title_text': '网站点击量统计'}
+[    INFO]-[2017-05-16 18:10:13,634]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 18:10:13,649]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 18:10:13,650]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 18:10:13,650]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 18:10:13,650]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 18:10:13,652]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 18:10:13,654]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 18:10:13,750]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 18:10:13,750]-Service.py :Line:31 : the service request parameter : {'title_text': '网站点击量统计', 'step': 60, 'type': 'line', 'filter_infos': {'key2': {'value': 'value', 'relation': 'relation'}, 'key1': {'value': 'value', 'relation': 'relation'}}, 'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'step_count': 7}
+[    INFO]-[2017-05-16 18:11:23,924]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 18:11:23,949]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 18:11:23,949]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 18:11:23,950]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 18:11:23,950]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 18:11:23,952]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 18:11:23,953]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 18:11:27,223]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 18:11:27,223]-Service.py :Line:31 : the service request parameter : {'step_count': 7, 'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'type': 'line', 'filter_infos': {'key2': {'value': 'value', 'relation': 'relation'}, 'key1': {'value': 'value', 'relation': 'relation'}}, 'title_text': '网站点击量统计', 'step': 60}
+[    INFO]-[2017-05-16 18:12:03,875]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 18:12:03,890]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 18:12:03,891]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 18:12:03,891]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 18:12:03,891]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 18:12:03,893]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 18:12:03,894]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 18:12:03,949]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 18:12:03,950]-Service.py :Line:31 : the service request parameter : {'legend_infos': {'保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}, '保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}}, 'step': 60, 'title_text': '网站点击量统计', 'step_count': 7, 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'type': 'line'}
+[    INFO]-[2017-05-16 18:15:04,468]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 18:15:04,473]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 18:15:04,474]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 18:15:04,474]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 18:15:04,474]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 18:15:04,476]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 18:15:04,477]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 18:15:07,206]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 18:15:07,206]-Service.py :Line:31 : the service request parameter : {'title_text': '网站点击量统计', 'filter_infos': {'key1': {'value': 'value', 'relation': 'relation'}, 'key2': {'value': 'value', 'relation': 'relation'}}, 'step': 60, 'legend_infos': {'保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}, '保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}}, 'type': 'line', 'step_count': 7}
+[    INFO]-[2017-05-16 18:15:59,530]-DB_init.py :Line:42 : start sys , init DB_ds 
+[    INFO]-[2017-05-16 18:15:59,546]-DB_init.py :Line:35 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-16 18:15:59,546]-DB_init.py :Line:35 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-16 18:15:59,546]-DB_init.py :Line:35 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-16 18:15:59,546]-DB_init.py :Line:35 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-16 18:15:59,548]-DB_init.py :Line:50 : start sys , compute all count data 
+[    INFO]-[2017-05-16 18:15:59,550]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-16 18:15:59,759]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-16 18:15:59,761]-Service.py :Line:31 : the service request parameter : {'type': 'line', 'step_count': 7, 'step': 60, 'title_text': '网站点击量统计', 'filter_infos': {'key2': {'relation': 'relation', 'value': 'value'}, 'key1': {'relation': 'relation', 'value': 'value'}}, 'legend_infos': {'保宝网点击量': {'project_name': 'YXYBB', 'statistic_type': 'click'}, '保宝app点击量': {'project_name': 'BBT', 'statistic_type': 'click'}}}

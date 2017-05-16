@@ -48,7 +48,7 @@ class DB_init(object):
 
         # 启动统计计算项任务
         L.info("start sys , compute all count data ")
-        Statistical_compute_init.Statistical_compute_init().start_inti()
+        Statistical_compute_init.Statistical_compute_init().start_init()
 
 
 def getInstance():

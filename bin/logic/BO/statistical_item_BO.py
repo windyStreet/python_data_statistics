@@ -2,6 +2,7 @@
 # !-*- coding:utf-8 -*-
 
 import datetime
+from bin.until import DBCODE
 
 '''
 statistical_item={
@@ -19,9 +20,8 @@ statistical_item={
 
 
 class statistical_item_BO(object):
-    def __init__(self, **kwargs):
-
-        self.kwargs = kwargs
+    def __init__(self):
+        self._id = None
         self.createtime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
         self.updatetime = None
         self.project_name = None
@@ -33,70 +33,68 @@ class statistical_item_BO(object):
     @property
     def json(self):
         """JSON format data."""
-        json = {
-            'createtime': self.createtime,
-            'updatetime': self.updatetime,
-            'project_name': self.project_name,
-            'statistical_type': self.statistical_type,
-            'statistical_start_time': self.statistical_start_time,
-            'statistical_step': self.statistical_step,
-            'statistical_name': self.statistical_name
-        }
-        json.update(self.kwargs)
+        json = {}
+        if self._id is not None:
+            json['_id'] = self._id
+        if self.updatetime is not None:
+            json['updatetime'] = self.updatetime
+        if self.project_name is not None:
+            json['project_name'] = self.project_name
+        if self.statistical_type is not None:
+            json['statistical_type'] = self.statistical_type
+        if self.statistical_start_time is not None:
+            json['statistical_start_time'] = self.statistical_start_time
+        if self.statistical_step is not None:
+            json['statistical_step'] = self.statistical_step
+        if self.statistical_name is not None:
+            json['statistical_name'] = self.statistical_name
         return json
 
     @property
-    def json2(self):
+    def update_json(self):
         """JSON format data."""
-        json2={}
-        if self.updatetime is not None:
-            json2['updatetime'] = self.updatetime
-        if self.project_name is not None:
-            json2['project_name'] = self.project_name
-        if self.statistical_type is not None:
-            json2['statistical_type'] = self.statistical_type
-        if self.statistical_start_time is not None:
-            json2['statistical_start_time'] = self.statistical_start_time
-        if self.statistical_step is not None:
-            json2['statistical_step'] = self.statistical_step
-        if self.statistical_name is not None:
-            json2['statistical_name'] = self.statistical_name
-        json2.update(self.kwargs)
-        return json2
+        update_json = {DBCODE.RELATION_UPDATE: self.json}
+        return update_json
 
-    def set_statistical_name(self, statistical_name):
+    def setId(self, _id):
+        self._id = _id
+        return self
+
+    def getId(self):
+        return self._id;
+
+    def setStatistical_name(self, statistical_name):
         self.statistical_name = statistical_name
         return self
 
-    def get_statistical_name(self):
+    def getStatistical_name(self):
         return self.statistical_name
 
-    def set_statistical_step(self, statistical_step):
+    def setStatistical_step(self, statistical_step):
         self.statistical_step = statistical_step
         return self
 
-    def get_statistical_step(self):
+    def getStatistical_step(self):
         return self.statistical_step
 
-
-    def statistical_start_time(self):
+    def getStatistical_start_time(self):
         return self.statistical_startTime
 
-    def statistical_start_time(self, statistical_start_time):
+    def setStatistical_start_time(self, statistical_start_time):
         self.statistical_start_time = statistical_start_time
         return self
 
-    def get_statistical_type(self):
+    def getStatistical_type(self):
         return self.statistical_type
 
-    def set_statistical_type(self, statistical_type):
+    def setStatistical_type(self, statistical_type):
         self.statistical_type = statistical_type
         return self
 
-    def get_project_name(self):
+    def getProject_name(self):
         return self.project_name
 
-    def set_project_name(self, project_name):
+    def setProject_name(self, project_name):
         self.project_name = project_name
         return self
 
