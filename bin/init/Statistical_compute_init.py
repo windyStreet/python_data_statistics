@@ -13,6 +13,7 @@ from bin.logic.BO import statistic_res_BO
 from bin.logic import BO
 from bin.logic.BO import statistical_item_BO
 import time
+from bin.init import RabbitMQ_mongo_log
 
 L = Logger.getInstance("times-task.log")
 
@@ -35,7 +36,8 @@ class Statistical_compute_init(threading.Thread):
             sleep_time = 60 * 60
             for par in pars:
                 _id = par['_id']
-                _item_conllection = Mongo.getInstance(table="statistical_item").collection
+                _item_mongo_instnce = Mongo.getInstance(table="statistical_item")
+                _item_conllection = _item_mongo_instnce.getCollection()
                 _item_bo = statistical_item_BO.getInstance()
                 _item_bo.setId(_id)
                 _item_filter = Filter.getInstance().filter("_id", _id, DBCODE.EQ)
@@ -46,12 +48,13 @@ class Statistical_compute_init(threading.Thread):
                 project_name = _item_info['project_name']
                 statistical_type = _item_info['statistical_type']
                 statistical_start_time = _item_info['statistical_start_time']
-                times = Time.getComputeTimes(statistical_start_time, statistical_step)
+                times = Time.getComputeTimes(start_time=statistical_start_time, step=statistical_step)
 
                 ds = logic.project_ds_info[project_name]
                 table = project_name + "_" + statistical_type
                 # 数据源数据，用于统计数据
                 collection = Mongo.getInstance(table=table, ds=ds).collection
+
                 documents = []
                 lastTime = None
                 L.debug("compute step is  %d s", statistical_step * 60)
@@ -61,7 +64,7 @@ class Statistical_compute_init(threading.Thread):
                     _f.filter("type", statistical_type, DBCODE.EQ)
                     _f.filter("project", project_name, DBCODE.EQ)
                     _f.filter("createtime", times[i - 1], DBCODE.GT)
-                    _f.filter("createtime", times[i], DBCODE.LT)
+                    _f.filter("createtime", times[i], DBCODE.LTE)
                     _filter = _f.filter_json()
                     count = collection.find(_filter).count()
                     document_bo = statistic_res_BO.getInstance()
@@ -71,6 +74,10 @@ class Statistical_compute_init(threading.Thread):
                     document_bo.setStatistical_step(statistical_step)
                     document_bo.setStatistical_type(statistical_type)
                     documents.append(document_bo.json())
+                    if len(documents) > 3000:
+                        res_collection = Mongo.getInstance(table=BO.BASE_statistic_res).collection
+                        res_collection.insert_many(documents=documents)  # 将结果插入到结果表中,防止爆了
+
                 if len(documents) > 0:
                     res_collection = Mongo.getInstance(table=BO.BASE_statistic_res).collection
                     res_collection.insert_many(documents=documents)  # 将结果插入到结果表中
@@ -84,6 +91,9 @@ class Statistical_compute_init(threading.Thread):
                     _item_conllection.update_one(_item_filter.filter_json(), _item_bo_1.update_json)
                 else:
                     L.debug("statistical_deal ,not get last time")
+
+                #关闭数据库连接
+                _item_mongo_instnce.close()
             L.debug("thread will sleep %s s", sleep_time)
             time.sleep(sleep_time)
 
@@ -162,6 +172,18 @@ class Statistical_compute_init(threading.Thread):
 
     # 队列的生产消费
     def product_consum(self):
+        # 消息队列中无数据时，启动该线程，否则等待
+        while True:
+            try:
+                msg_count = RabbitMQ_mongo_log.getInstance().getQueueMsgCount(queue="Mongodb_log")
+                if msg_count == 0:
+                    break
+                time.sleep(5)
+                L.debug("MQ remain have msg , the count is %d", msg_count)
+                print("MQ remain have msg , the count is %d", msg_count)
+            except Exception as e:
+                L.warning(e)
+
         tasks = self.getTasks()  # 获取任务信息
         if tasks is not None:  # 初始化队列
             self.step_type_count = len(tasks)
@@ -182,13 +204,21 @@ if __name__ == "__main__":
     # item_bo = statistical_item_BO.getInstance()
     # collection = Mongo.getInstance(table=BO.BASE_statistical_item).collection
     # datas = []
-    # data_1 = item_bo.setProject_name("YXYBB").setStatistical_type("interface").setStatistical_step(5).setStatistical_start_time("2017-05-05 00:00:00.000").json
-    # data_2 = item_bo.setProject_name("YXYBB").setStatistical_type("interface").setStatistical_step(60).setStatistical_start_time("2017-05-05 00:00:00.000").json
-    # data_3 = item_bo.setProject_name("YXYBB").setStatistical_type("interface").setStatistical_step(60*6).setStatistical_start_time("2017-05-05 00:00:00.000").json
+    # data_1 = item_bo.setProject_name("YXYBB").setStatistical_type("interface").setStatistical_step(1).setStatistical_start_time("2017-05-18 00:00:00.000").json
+    # data_2 = item_bo.setProject_name("YXYBB").setStatistical_type("interface").setStatistical_step(5).setStatistical_start_time("2017-05-18 00:00:00.000").json
+    # data_3 = item_bo.setProject_name("YXYBB").setStatistical_type("interface").setStatistical_step(30).setStatistical_start_time("2017-05-18 00:00:00.000").json
+    # data_4 = item_bo.setProject_name("YXYBB").setStatistical_type("interface").setStatistical_step(60).setStatistical_start_time("2017-05-18 00:00:00.000").json
+    # data_5 = item_bo.setProject_name("YXYBB").setStatistical_type("interface").setStatistical_step(60*6).setStatistical_start_time("2017-05-18 00:00:00.000").json
+    # data_6 = item_bo.setProject_name("YXYBB").setStatistical_type("interface").setStatistical_step(60*12).setStatistical_start_time("2017-05-18 00:00:00.000").json
+    # data_7 = item_bo.setProject_name("YXYBB").setStatistical_type("interface").setStatistical_step(60*24).setStatistical_start_time("2017-05-18 00:00:00.000").json
     # datas.append(data_1)
     # datas.append(data_2)
     # datas.append(data_3)
+    # datas.append(data_4)
+    # datas.append(data_5)
+    # datas.append(data_6)
+    # datas.append(data_7)
     # collection.insert_many(datas)
-    ###################################
+    #################################
     # Statistical_compute_init().start_init()
     pass

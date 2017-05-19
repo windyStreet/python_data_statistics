@@ -1,26 +1,36 @@
 function init(){
-
-
+    var arrays = new Array();
+    arrays.push(1)
+    arrays.push(2)
+    arrays.push(3)
+    arrays.pop()
+    for ( var i=0 ; i < arrays.length;i++)
+    {
+        //alert(arrays[i])
+    }
+    DBCODE = getDBCODE()
+    //选取的不能大于当前值。备注：如果数据未计算，应该先采用数据恢复方案，恢复数据之后再操作
     data={
         "method":"line_test",
         "data":{
             "type":"line",
-            "step_count":7,
-            "step":60,
-            "filter_infos":{"key1":{"value":"value","relation":"relation"},"key2":{"value":"value","relation":"relation"}},
+            "step_count":100,
+            "step":1,
+            //"filter_infos":[{"key":"time","value":"2017-05-19 10:00:00.12","relation":DBCODE.GT},{"key":"time","value":"2017-05-19 11:10:12.12","relation":DBCODE.LTE}],
+            "filter_infos":[],
             "legend_infos":{
-                "保宝网点击量":
+                "保宝网接口调用量":
                 {
                     "project_name":"YXYBB",
-                    "statistic_type":"click"
-                },
-                "保宝app点击量":
-                {
-                    "project_name":"BBT",
-                    "statistic_type":"click"
+                    "statistic_type":"interface"
                 }
+//                "保宝app点击量":
+//                {
+//                    "project_name":"BBT",
+//                    "statistic_type":"click"
+//                }
             },
-            "title_text":"网站点击量统计"
+            "title_text":"接口调用量统计"
            }
     }
     asyncRequest(data, func1,null)

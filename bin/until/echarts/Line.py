@@ -7,96 +7,99 @@ from bin.until import Mongo
 from bin.until import DBCODE
 from bin.until import Filter
 from bin.logic import BO
-
+from bin.until import Data
 
 L = Logger.getInstance()
 
 
 class Line(object):
     # search_filter_infos = None, _step = 60, _step_count = 7, _title_text = "数据统计", _type = "line"
-    def __init__(self, _search_filter_infos, _step, _step_count, _title_text, _type):
+    def __init__(self, _search_filter_infos, _title_text, _type, _step = 60,_step_count=7):
         self._search_filter_infos = _search_filter_infos
         self._step_count = _step_count
         self._step = _step
         self._title_text = _title_text
         self._type = _type
+        self.start_time = None
+        self.end_time = None
 
     def getFileter(self):
         pass
 
     def getLineChartData(self):
+
         series = []
+        _legend_datas = []
         for key in self._search_filter_infos:
+            _legend_data = key
+            _legend_datas.append(_legend_data)
             _search_filter_info = self._search_filter_infos[key]
             _project = _search_filter_info['project_name']
+            self_collection = _search_filter_info['self_collection']
             _filter_infos = _search_filter_info['filter_infos']
+            _statistic_type = _search_filter_info['statistic_type']
 
-            now_str = Time.getNowStr()
-
-            print(now_str)
-            start_time = Time.getStartTime(step=self._step, step_count=self._step_count)
-            times = Time.getComputeTimes(startTime=start_time, step=self._step)
-            print(times)
-            print(start_time)
+            self.start_time = Time.getStartTime(step=self._step, step_count=self._step_count)  # 获取起始时间
+            for _filter_info in _filter_infos:
+                print(_filter_info)
+                key = _filter_info['key']
+                relation = _filter_info['relation']
+                value = _filter_info['value']
+                if key == 'time' and relation == DBCODE.GT:
+                    self.start_time = value  # 过滤条件中的起始时间
+                if key == 'time' and relation == DBCODE.LTE:
+                    self.end_time = value  # 过滤条件中的终止时间
+            times = Time.getComputeTimes(start_time=self.start_time, end_time=self.end_time ,step=self._step)
             # 计划分批次查询
 
             res_collection = Mongo.getInstance(table=BO.BASE_statistic_res).collection
             res_filter = Filter.getInstance()
-            res_filter.filter("statistical_time",times[0],DBCODE.GT)
-            res_filter.filter("statistical_time",times[-2],DBCODE.LTE)
-            res_filter.filter("statistical_step",self._step,DBCODE.EQ)
-            res_filter.filter("statistical_project",_project,DBCODE.EQ)
+            # for _filter_info in _filter_infos:
+            #    res_filter.filter(_filter_info['key'],_filter_info['value'],_filter_info['relation'])
+            res_filter.filter("statistical_time", times[0], DBCODE.GT)
+            res_filter.filter("statistical_time", times[-1], DBCODE.LTE)
+            res_filter.filter("statistical_step", self._step, DBCODE.EQ)
+            res_filter.filter("statistical_type", _statistic_type, DBCODE.EQ)
+            res_filter.filter("statistical_project", _project, DBCODE.EQ)
             print(res_filter.filter_json())
-            ress = res_collection.find(res_filter.filter_json())
+            ress = res_collection.find(res_filter.filter_json()).sort("statistical_time", -1)  # 计算前半部分值
+            self._step_count = len(times)-1
+            series_data = Data.getD4tArr(len=self._step_count, default_value=0)  # 坐标轴上的值
+            # 先来尝试组合数据，发现数据无法组合完整时，补充数据
+            i = 0
             for res in ress:
-                print(res)
+                if i == 0 and ress.count() != (len(times) - 1) and res['statistical_time'] != times[-1]:
+                    # 重新补录一个值
+                    _self_filter = Filter.getInstance()
+                    _self_filter.filter("project", _project, DBCODE.EQ)
+                    _self_filter.filter("type", _statistic_type, DBCODE.EQ)
+                    _self_filter.filter("createtime", times[-2], DBCODE.GT)
+                    _self_filter.filter("createtime", times[-1], DBCODE.LTE)
+                    _filter = _self_filter.filter_json()
+                    count = self_collection.find(_filter).count()
+                    series_data[i] = count
+                    series_data[i + 1] = res['statistical_count']
+                    i = i + 2
+                else:
+                    series_data[i] = res['statistical_count']
+                    i = i + 1
+            series_data.reverse()
+            xAxis_data = times[1:]  # 横坐标轴信息[] 时间信息 去掉首要点
 
-
-            series_data = []
-            xAxis_data = []
-            xAxis_data_x = []
-
-            _first_flag_time = datetime.datetime.now() - datetime.timedelta(minutes=self._step_count * self._step)
-            for i in range(self._step_count):
-                i += 1
-                _xAxis = (_first_flag_time + datetime.timedelta(minutes=self._step * i))
-                xAxis_data.append(_xAxis.strftime('%Y-%m-%d %H:%M'))
-                xAxis_data_x.append(_xAxis)
-
-            for _x_it in xAxis_data_x:
-                _x_it_1 = (_x_it + datetime.timedelta(minutes=self._step)).strftime('%Y-%m-%d %H:%M:%S.%f')
-                _x_it = _x_it.strftime('%Y-%m-%d %H:%M:%S.%f')
-
-                # Time
-                # _filter=getFileter(_search_filter_infos)
-                _filter = \
-                    {
-                        "createtime":
-                            {
-                                "$gt": _x_it,
-                                "$lt": _x_it_1
-                            }
-                    }
-
-                for _filter_other in self._filter_others:
-                    _filter[_filter_other["key"]] = _filter_other["value"]
-                L.debug(_filter)
-                L.debug(self.collection.find(_filter).count())
-                series_data.append(self.collection.find(_filter).count())
-
-                serie = {
-                    "name": _legend_data,
-                    "type": self._type,
-                    "stack": '总量',
-                    "data": series_data
-                }
+            serie = {
+                "name": _legend_data,
+                "type": self._type,
+                "stack": '总量',
+                "data": series_data.copy()  # 坐标轴上的值
+            }
             series.append(serie)
+
         _result = {
             "title": {
                 "text": self._title_text
             },
             "legend": {
-                "data": self._legend_datas
+                "data": _legend_datas
             },
             "xAxis": {
                 "data": xAxis_data
@@ -105,9 +108,8 @@ class Line(object):
         }
         return _result
 
-
-def getInsatnce(search_filter_infos=None, _step=60, _step_count=7, _title_text="数据统计", _type="line"):
+def getInsatnce(search_filter_infos=None, _title_text="数据统计", _type="line",_step = 60, _step_count=7):
     if search_filter_infos is None:
         L.warn("init Line  , not search_filter_infos par")
         return None
-    return Line(search_filter_infos, _step, _step_count, _title_text, _type)
+    return Line(search_filter_infos, _title_text, _type,_step,_step_count)

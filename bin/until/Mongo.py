@@ -11,27 +11,44 @@ _db_info = JsonFileFunc.getInstance().readFile(path)
 
 
 class Mongo(object):
-    def __init__(self, table=None, ds=None, ip=None, port=None, dbname=None):
+    def __init__(self, table, db=None, ds=None, ip=None, port=None):
+        self.db = None
+        self.table = None
         if ds is None:
             ds = "base"
         if ip is None:
             ip = _db_info[ds]["ip"]
         if port is None:
             port = _db_info[ds]["port"]
-        if dbname is None:
-            dbname = _db_info[ds]["dbname"]
+        if db is None:
+            self.db = _db_info[ds]["dbname"]
+        else:
+            self.db = db
         if table is None:
-            table = "default"
+            self.table = "default"
+        else:
+            self.table = table
         user = _db_info[ds]["user"]
         password = _db_info[ds]["password"]
-        client = pymongo.MongoClient(ip, port)
-        dbname = client[dbname]
-        self.collection = dbname[table]
+
+        self.client = pymongo.MongoClient(ip, port)
+        self.collection = None
         pass
 
+    def getCollection(self):
+        if self.db is None or self.table is None:
+            return None
+        return self.client[self.db][self.table]
 
-def getInstance(table, ip=None, ds=None, port=None, dbname=None):
-    return Mongo(table, ds, ip, port, dbname)
+    def getClient(self):
+        return self.client
+
+    def close(self):
+       return self.client.close()
+
+
+def getInstance(table, db=None, ip=None, ds=None, port=None):
+    return Mongo(table, db, ds, ip, port)
 
 
 if __name__ == "__main__":

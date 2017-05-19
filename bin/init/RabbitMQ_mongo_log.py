@@ -27,12 +27,8 @@ import pika
 
 from bin.until import JsonFileFunc
 from bin.until import Path
-import time
 import os
-from bin.until import Mongo
 from bin.until import Logger
-from bin.logic.BO import  statistical_BO
-import json
 
 L = Logger.getInstance()
 P = Path.getInstance()
@@ -57,8 +53,8 @@ class RabbitMQ_mongo_log(object):
             L.warning("callback method is None")
         channel = self.connection.channel()
         # 声明消息队列，消息将在这个队列中进行传递。如果队列不存在，则创建
-        channel.queue_declare(queue=queue, durable=True)
-        # channel.basic_qos(prefetch_count=3)
+        channel.queue_declare(queue=queue, durable=True,passive="MONGO_FLAG")
+        channel.basic_qos(prefetch_count=1)
 
         # 告诉rabbitmq使用callback来接收信息
         channel.basic_consume(callback,
@@ -66,10 +62,17 @@ class RabbitMQ_mongo_log(object):
                               no_ack=False)
         channel.start_consuming()
 
+    def getQueueMsgCount(self,queue="Mongodb_log"):
+        channel = self.connection.channel()
+        ch = channel.queue_declare(queue=queue, durable=True,passive="Mongodb_log")
+        self.connection.close()
+        count = ch.method.message_count
+        return count
 
 def getInstance():
     return RabbitMQ_mongo_log()
 
 
 if __name__ == "__main__":
-    RabbitMQ_mongo_log().recvMsg(queue="Mongodb_log", callback=RabbitMQ_mongo_log().callback)
+    #RabbitMQ_mongo_log().recvMsg(queue="Mongodb_log", callback=RabbitMQ_mongo_log().callback)
+    print(RabbitMQ_mongo_log().getQueueMsgCount())

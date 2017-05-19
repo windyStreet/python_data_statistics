@@ -63,7 +63,28 @@ class RabbitMQ(object):
         channel.basic_consume(callback,
                               queue=queue,
                               no_ack=True)
+        # 公平分发，使每个consumer在同一时间最多处理一个message，收到ack前，不会分配新的message
+        channel.basic_qos(prefetch_count=10)
         channel.start_consuming()
+
+        # cha = con.channel()
+        # # 创建队列anheng
+        # result = cha.queue_declare(queue='anheng', durable=True)
+        # # 创建名为yanfa,类型为fanout的交换机，其他类型还有direct和topic
+        # cha.exchange_declare(durable=False,
+        #                      exchange='yanfa',
+        #                      type='direct', )
+        # # 绑定exchange和queue,result.method.queue获取的是队列名称
+        # cha.queue_bind(exchange='yanfa',
+        #                queue=result.method.queue,
+        #                routing_key='', )
+        # # 公平分发，使每个consumer在同一时间最多处理一个message，收到ack前，不会分配新的message
+        # cha.basic_qos(prefetch_count=)
+
+
+
+
+
 
     def callback(self, ch, method, properties, body):
         print(" [x] Received %r" % body)

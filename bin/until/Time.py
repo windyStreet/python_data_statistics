@@ -10,12 +10,19 @@ class Time(object):
         pass
 
 
+
+def getStepCount(start_time=None,end_time = None,step = None):
+    stepCount = int((string2timestamp(end_time) - string2timestamp(start_time)) /(step*60))
+    return stepCount
+
 # step 单位分钟
-def getComputeTimes(startTime=None, step=None):
+def getComputeTimes(start_time=None,end_time=None, step=None):
+    if step is None:
+        step = 1
     result_times = []
-    if startTime is None:
+    if start_time is None:
         # 获取递前的一个时间点
-        now_str = time.strptime(time.strftime('%Y-%m-%d %H:%M:%S'), "%Y-%m-%d %H:%M:%S")
+        now_str = time.strptime(getNowStr(), "%Y-%m-%d %H:%M:%S")
         current_timeStamp = int(time.mktime(now_str))
         currentTime_count = int(current_timeStamp / (step * 60))
 
@@ -24,18 +31,19 @@ def getComputeTimes(startTime=None, step=None):
         lastTime = time.strftime("%Y-%m-%d %H:%M:%S", last_timeArray)
         result_times.append(lastTime)
     else:
-        starTime_str = time.strptime(str(startTime)[:19], "%Y-%m-%d %H:%M:%S")
-        start_timeStamp = int(time.mktime(starTime_str))
-        start_count = int(start_timeStamp / (step * 60))
+        star_time_f = time.strptime(str(start_time)[:19], "%Y-%m-%d %H:%M:%S")
+        start_time_stamp = int(time.mktime(star_time_f))
+        start_count = int(start_time_stamp / (step * 60))
+        if end_time is None:
+            end_time = getNowStr()
+        end_time_f = time.strptime(str(end_time)[:19], "%Y-%m-%d %H:%M:%S")
+        end_time_stamp = int(time.mktime(end_time_f))
+        end_count = int(end_time_stamp / (step * 60))
 
-        now_str = time.strptime(time.strftime('%Y-%m-%d %H:%M:%S'), "%Y-%m-%d %H:%M:%S")
-        current_timeStamp = int(time.mktime(now_str))
-        currentTime_count = int(current_timeStamp / (step * 60))
-
-        if start_count < currentTime_count:
-            count = currentTime_count - start_count
-            for i in range(count):
-                res_Stamp = (start_count + i+1) * step * 60
+        if start_count < end_count:
+            count = end_count - start_count
+            for i in range(count+1):
+                res_Stamp = (start_count + i) * step * 60
                 res_timeArray = time.localtime(res_Stamp)
                 res_Time = time.strftime("%Y-%m-%d %H:%M:%S", res_timeArray)
                 result_times.append(res_Time)
@@ -49,11 +57,13 @@ def getNowStr():
 
 # 获取应该开始的时间
 def getStartTime(step=7, step_count=60):
-    start_timestamp = getNowTimeStamp()-step*step_count*60
+    start_timestamp = getNowTimeStamp() - step * step_count * 60
     return timestamp2string(start_timestamp)
+
 
 def getNowTimeStamp():
     return int(time.mktime(datetime.datetime.now().timetuple()))
+
 
 def timestamp2string(timeStamp):
     try:

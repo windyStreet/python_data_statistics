@@ -23,7 +23,8 @@ class DB_init(object):
     def init_DB_ds(self):
         path = P.confDirPath + os.sep + "DB.json"
         DB_infos = J.readFile(path)
-        collection = Mongo.getInstance(table="project_ds", ds='base').collection
+        mongo_instance = Mongo.getInstance(table="project_ds", ds='base')
+        collection = mongo_instance.getCollection()
         collection.remove({})  # 先删除表中所有数据
         datas = []
         for key in DB_infos.keys():
@@ -34,6 +35,7 @@ class DB_init(object):
             datas.append(data)
             L.info("init DB_ds , insert data:" + key + ":" + value)
         collection.insert_many(datas)
+        mongo_instance.close()
         pass
 
 
@@ -47,8 +49,8 @@ class DB_init(object):
         #Statistical_item_init.Statistical_item_init.start()
 
         # 启动统计计算项任务
-        L.info("start sys , compute all count data ")
-        Statistical_compute_init.Statistical_compute_init().start_init()
+        #L.info("start sys , compute all count data ")
+        #Statistical_compute_init.Statistical_compute_init().start_init()
 
 
 def getInstance():

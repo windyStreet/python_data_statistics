@@ -12,17 +12,29 @@ import threading
 MQ = RabbitMQ_mongo_log.getInstance()
 P = Path.getInstance()
 L = Logger.getInstance("init.log")
+global counter
+counter = 0
 
 
-class MongDB_log(object):
+class MongoDB_log(object):
     def __init__(self):
         pass
 
     def insert_log(self, ch, method, properties, body):
-        L.info("insert data:%s", body)
-        collection = Mongo.getInstance(table="YXYBB_interface", dbname="YXYBB").collection
-        collection.insert(json.loads(str(body, encoding="utf-8")))
-        ch.basic_ack(delivery_tag=method.delivery_tag)
+        try:
+            L.info("insert data:%s", body)
+            mongo_instance = Mongo.getInstance(table="YXYBB_interface", ds="YXYBB")
+            collection = mongo_instance.getCollection()
+            collection.insert(json.loads(str(body, encoding="utf-8")))
+            mongo_instance.close()
+            ch.basic_ack(delivery_tag=method.delivery_tag)
+            global counter
+            #print(counter)
+            counter = counter + 1
+            print(method.delivery_tag)
+            #ch.basic_ack(delivery_tag=method.delivery_tag,multiple=True)
+        except Exception as e:
+            L.warning("insert_log Exception %s", e)
         pass
 
     def recvLog(self):
@@ -34,4 +46,4 @@ class MongDB_log(object):
 
 
 def getInstance():
-    return MongDB_log()
+    return MongoDB_log()
