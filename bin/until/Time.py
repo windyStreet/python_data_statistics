@@ -10,13 +10,13 @@ class Time(object):
         pass
 
 
-
-def getStepCount(start_time=None,end_time = None,step = None):
-    stepCount = int((string2timestamp(end_time) - string2timestamp(start_time)) /(step*60))
+def getStepCount(start_time=None, end_time=None, step=None):
+    stepCount = int((string2timestamp(end_time) - string2timestamp(start_time)) / (step * 60))
     return stepCount
 
+
 # step 单位分钟
-def getComputeTimes(start_time=None,end_time=None, step=None):
+def getComputeTimes(start_time=None, end_time=None, step=None):
     if step is None:
         step = 1
     result_times = []
@@ -42,7 +42,7 @@ def getComputeTimes(start_time=None,end_time=None, step=None):
 
         if start_count < end_count:
             count = end_count - start_count
-            for i in range(count+1):
+            for i in range(count + 1):
                 res_Stamp = (start_count + i) * step * 60
                 res_timeArray = time.localtime(res_Stamp)
                 res_Time = time.strftime("%Y-%m-%d %H:%M:%S", res_timeArray)

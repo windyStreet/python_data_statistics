@@ -67,10 +67,6 @@ class Service_logic(object):
         _step_count = data["step_count"]  # 横坐标点
         _step = data['step']  # 步长（单位:min）
         _type = data['type']  # 绘图类型
-        # _statistic_type = data['statistic_type']  # 统计类型
-        _filter_infos = data['filter_infos']  # 统计类型
-        # "filter_infos": [{"key": "key1", "value": "value1", "relation": "relation1"}, {"key": "key1", "value": "value2", "relation": "relation2"}, {"key": "key3", "value": "value3", "relation": "relation3"}],
-        print(_filter_infos)
         # 保宝网的点击量和保宝网的观看人数统计的折线图 怎么处理？？？ 项目 类型
         _legend_infos = data['legend_infos']  # 数据项信息
         print(_legend_infos)
@@ -80,16 +76,22 @@ class Service_logic(object):
         for _legend_data in _legend_datas:
             _project_name = _legend_infos[_legend_data]['project_name']  # 项目名称
             _statistic_type = _legend_infos[_legend_data]['statistic_type']  # 统计类型
+            _statistic_name = _legend_infos[_legend_data]['statistic_name']  # 统计名称
+            _filter_infos = _legend_infos[_legend_data]['filter_infos']  # 过滤条件
+            print(_filter_infos)
             ds = logic.project_ds_info[_project_name]  # 查询数据源
             table = _project_name + "_" + _statistic_type  # YXYBB_interface
-            self_collection = Mongo.getInstance(table=table, ds=ds).collection
+            self_mongo_instance = Mongo.getInstance(table=table, ds=ds)
+            self_collection = self_mongo_instance.getCollection()
 
             _search_filter_infos[_legend_data] = {
                 "project_name": _project_name,
                 "self_collection": self_collection,  # 连接额外数据源
                 "filter_infos": _filter_infos,  # 过滤机制
-                "statistic_type": _statistic_type  # 统计类型
+                "statistic_type": _statistic_type,  # 统计类型
+                "statistic_name": _statistic_name  # 统计名称
             }
         _result = Line.getInsatnce(search_filter_infos=_search_filter_infos, _step=_step, _step_count=_step_count, _title_text=_title_text, _type=_type).getLineChartData()
+        self_mongo_instance.close()
         _PR.setResult(_result)
         return _PR.getPRBytes()

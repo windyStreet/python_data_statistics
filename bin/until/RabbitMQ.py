@@ -81,11 +81,6 @@ class RabbitMQ(object):
         # # 公平分发，使每个consumer在同一时间最多处理一个message，收到ack前，不会分配新的message
         # cha.basic_qos(prefetch_count=)
 
-
-
-
-
-
     def callback(self, ch, method, properties, body):
         print(" [x] Received %r" % body)
         print(str(body, encoding="utf-8"))

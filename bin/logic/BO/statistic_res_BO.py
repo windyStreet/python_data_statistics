@@ -9,23 +9,34 @@ class statistic_res_BO(object):
             "statistical_time":统计时间,
             "statistical_step":"统计步长"，
             "statistical_count":"统计数量"
+            "statistical_name":"统计名称"
         '''
         self.statistical_project = None
         self.statistical_type = None
         self.statistical_time = None
         self.statistical_step = None
         self.statistical_count = 0
+        self.statistical_name = None
         pass
 
+    # 均为必须字段
     def json(self):
         json = {
             "statistical_project": self.statistical_project,
             "statistical_type": self.statistical_type,
             "statistical_time": self.statistical_time,
             "statistical_step": self.statistical_step,
-            "statistical_count": self.statistical_count
+            "statistical_count": self.statistical_count,
+            "statistical_name": self.statistical_name
         }
         return json
+
+    def setStatistical_name(self, statistical_name):
+        self.statistical_name = statistical_name
+        return self
+
+    def getStatistical_name(self):
+        return self.statistical_name
 
     def getStatistical_project(self):
         return self.statistical_project

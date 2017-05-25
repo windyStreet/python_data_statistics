@@ -10,25 +10,70 @@ function init(){
     }
     DBCODE = getDBCODE()
     //选取的不能大于当前值。备注：如果数据未计算，应该先采用数据恢复方案，恢复数据之后再操作
+//    bbt_login_sUserLogin
+//    FR_trDs_uStudyRecord
+//    bbt_course_uStudyRecordByAndroid
+//    bbt_course_uStudyRecord_offlineByAndroid
+//    bbt_course_uStudyRecordByIos
+//    bbt_course_uStudyRecord_offlineByIos
     data={
         "method":"line_test",
         "data":{
             "type":"line",
-            "step_count":100,
+            "step_count":1000,
             "step":1,
-            //"filter_infos":[{"key":"time","value":"2017-05-19 10:00:00.12","relation":DBCODE.GT},{"key":"time","value":"2017-05-19 11:10:12.12","relation":DBCODE.LTE}],
-            "filter_infos":[],
             "legend_infos":{
-                "保宝网接口调用量":
+                "接口调用总量":
                 {
                     "project_name":"YXYBB",
-                    "statistic_type":"interface"
+                    "statistic_type":"interface",
+                    "statistic_name":"",
+                    "filter_infos":[]
+                    //"filter_infos":[{"key":"time","value":"2017-05-19 10:00:00.12","relation":DBCODE.GT},{"key":"time","value":"2017-05-22 11:10:12.12","relation":DBCODE.LTE},{"key":"name","value":"bbt_login_sUserLogin","relation":DBCODE.EQ}],
+                },
+                "用户登录接口":
+                {
+                    "project_name":"YXYBB",
+                    "statistic_type":"interface",
+                    "statistic_name":"bbt_login_sUserLogin",
+                    "filter_infos":[]
+                    //"filter_infos":[{"key":"time","value":"2017-05-19 10:00:00.12","relation":DBCODE.GT},{"key":"time","value":"2017-05-22 11:10:12.12","relation":DBCODE.LTE},{"key":"name","value":"FR_trDs_uStudyRecord","relation":DBCODE.EQ}],
+                },
+                "学习记录更新接口":
+                {
+                    "project_name":"YXYBB",
+                    "statistic_type":"interface",
+                    "statistic_name":"FR_trDs_uStudyRecord",
+                    "filter_infos":[]
+                },
+                "安卓线上学习记录更新接口":
+                {
+                    "project_name":"YXYBB",
+                    "statistic_type":"interface",
+                    "statistic_name":"bbt_course_uStudyRecordByAndroid",
+                    "filter_infos":[]
+                },
+                "安卓离线学习记录更新接口":
+                {
+                    "project_name":"YXYBB",
+                    "statistic_type":"interface",
+                    "statistic_name":"bbt_course_uStudyRecord_offlineByAndroid",
+                    "filter_infos":[]
+                },
+                "ios线上学习记录更新接口":
+                {
+                    "project_name":"YXYBB",
+                    "statistic_type":"interface",
+                    "statistic_name":"bbt_course_uStudyRecordByIos",
+                    "filter_infos":[]
+                },
+                "ios离线学习记录更新接口":
+                {
+                    "project_name":"YXYBB",
+                    "statistic_type":"interface",
+                    "statistic_name":"bbt_course_uStudyRecord_offlineByIos",
+                    "filter_infos":[]
                 }
-//                "保宝app点击量":
-//                {
-//                    "project_name":"BBT",
-//                    "statistic_type":"click"
-//                }
             },
             "title_text":"接口调用量统计"
            }

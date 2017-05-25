@@ -47,5 +47,6 @@ class demo_BO(object):
             self.updatetime = updatetime
         return self
 
+
 def getInstance():
     return demo_BO()

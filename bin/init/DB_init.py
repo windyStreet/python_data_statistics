@@ -38,24 +38,22 @@ class DB_init(object):
         mongo_instance.close()
         pass
 
-
     def start(self):
         # 初始化数据源
         L.info("start sys , init DB_ds ")
         self.init_DB_ds()
 
         # 初始化统计项信息 (该工作可以置后处理)
-        #L.info("start sys , init statistical_item ")
-        #Statistical_item_init.Statistical_item_init.start()
+        # L.info("start sys , init statistical_item ")
+        # Statistical_item_init.Statistical_item_init.start()
 
         # 启动统计计算项任务
-        #L.info("start sys , compute all count data ")
-        #Statistical_compute_init.Statistical_compute_init().start_init()
+        L.info("start sys , compute all count data ")
+        Statistical_compute_init.Statistical_compute_init().start_init()
 
 
 def getInstance():
     return DB_init()
-
 
 # if __name__ == "__main__":
 #     DB_init().statistical_item_init()

@@ -31,7 +31,6 @@ class Service(tornado.web.RequestHandler):
             L.debug("the service request parameter : " + str(data))
             self.write(operator.get(method)(data))
         except Exception as e:
-            print(e)
             _PR.setCode(until.Code_EXCEPTION)
             _PR.setMsg("exception ERROR :" + str(e))
             self.write(_PR.getPRBytes())

@@ -73,9 +73,9 @@ class Filter(object):
                 else:
                     filter_json[filter_outer_key] = {DBCODE.RELATION_GTE: filter_outer_value}
                 continue
-            #--和SQL不同的是，MongoDB的in
-            #list中的数据可以是不同类型。这种情况可用于不同类型的别名场景。
-            #> db.test.find({"name": {"$in": ["stephen", 123]}})
+            # --和SQL不同的是，MongoDB的in
+            # list中的数据可以是不同类型。这种情况可用于不同类型的别名场景。
+            # > db.test.find({"name": {"$in": ["stephen", 123]}})
             if filter_outer_relation is DBCODE.IN:  # in 关系
                 if filter_outer_key in filter_json.keys():
                     filter_json[filter_outer_key].update({DBCODE.RELATION_IN: filter_outer_value})
@@ -83,8 +83,8 @@ class Filter(object):
                     filter_json[filter_outer_key] = {DBCODE.RELATION_IN: filter_outer_value}
                 continue
 
-            #--$nin等同于SQL中的not in，同时也是$in的取反。如：
-            #> db.test.find({"name": {"$nin": ["stephen2", "stephen1"]}})
+            # --$nin等同于SQL中的not in，同时也是$in的取反。如：
+            # > db.test.find({"name": {"$nin": ["stephen2", "stephen1"]}})
             if filter_outer_relation is DBCODE.NIN:  # not in 关系
                 if filter_outer_key in filter_json.keys():
                     filter_json[filter_outer_key].update({DBCODE.RELATION_NIN: filter_outer_value})

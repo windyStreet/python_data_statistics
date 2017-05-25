@@ -44,7 +44,7 @@ class Mongo(object):
         return self.client
 
     def close(self):
-       return self.client.close()
+        return self.client.close()
 
 
 def getInstance(table, db=None, ip=None, ds=None, port=None):
