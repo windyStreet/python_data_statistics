@@ -1770,3 +1770,110 @@
 [   DEBUG]-[2017-05-25 09:13:07,209]-Service.py :Line:31 : the service request parameter : {'title_text': '接口调用量统计', 'type': 'line', 'step_count': 1000, 'step': 1, 'legend_infos': {'接口调用总量': {'filter_infos': [], 'project_name': 'YXYBB', 'statistic_type': 'interface', 'statistic_name': ''}, '安卓离线学习记录更新接口': {'filter_infos': [], 'project_name': 'YXYBB', 'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecord_offlineByAndroid'}, '用户登录接口': {'filter_infos': [], 'project_name': 'YXYBB', 'statistic_type': 'interface', 'statistic_name': 'bbt_login_sUserLogin'}, '学习记录更新接口': {'filter_infos': [], 'project_name': 'YXYBB', 'statistic_type': 'interface', 'statistic_name': 'FR_trDs_uStudyRecord'}, 'ios线上学习记录更新接口': {'filter_infos': [], 'project_name': 'YXYBB', 'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecordByIos'}, 'ios离线学习记录更新接口': {'filter_infos': [], 'project_name': 'YXYBB', 'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecord_offlineByIos'}, '安卓线上学习记录更新接口': {'filter_infos': [], 'project_name': 'YXYBB', 'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecordByAndroid'}}}
 [   DEBUG]-[2017-05-25 09:14:34,919]-Service.py :Line:30 : the service request method : line_test
 [   DEBUG]-[2017-05-25 09:14:34,919]-Service.py :Line:31 : the service request parameter : {'title_text': '接口调用量统计', 'type': 'line', 'step_count': 1000, 'step': 1, 'legend_infos': {'接口调用总量': {'filter_infos': [], 'project_name': 'YXYBB', 'statistic_type': 'interface', 'statistic_name': ''}, '安卓离线学习记录更新接口': {'filter_infos': [], 'project_name': 'YXYBB', 'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecord_offlineByAndroid'}, '用户登录接口': {'filter_infos': [], 'project_name': 'YXYBB', 'statistic_type': 'interface', 'statistic_name': 'bbt_login_sUserLogin'}, '学习记录更新接口': {'filter_infos': [], 'project_name': 'YXYBB', 'statistic_type': 'interface', 'statistic_name': 'FR_trDs_uStudyRecord'}, 'ios线上学习记录更新接口': {'filter_infos': [], 'project_name': 'YXYBB', 'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecordByIos'}, 'ios离线学习记录更新接口': {'filter_infos': [], 'project_name': 'YXYBB', 'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecord_offlineByIos'}, '安卓线上学习记录更新接口': {'filter_infos': [], 'project_name': 'YXYBB', 'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecordByAndroid'}}}
+[    INFO]-[2017-05-27 09:16:10,625]-DB_init.py :Line:43 : start sys , init DB_ds 
+[    INFO]-[2017-05-27 09:16:10,656]-DB_init.py :Line:36 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-27 09:16:10,656]-DB_init.py :Line:36 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-27 09:16:10,656]-DB_init.py :Line:36 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-27 09:16:10,656]-DB_init.py :Line:36 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-27 09:16:10,656]-DB_init.py :Line:51 : start sys , compute all count data 
+[    INFO]-[2017-05-27 09:16:10,656]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-27 09:19:54,854]-DB_init.py :Line:43 : start sys , init DB_ds 
+[    INFO]-[2017-05-27 09:19:54,877]-DB_init.py :Line:36 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-27 09:19:54,877]-DB_init.py :Line:36 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-27 09:19:54,877]-DB_init.py :Line:36 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-27 09:19:54,877]-DB_init.py :Line:36 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-27 09:19:54,878]-DB_init.py :Line:51 : start sys , compute all count data 
+[    INFO]-[2017-05-27 09:19:54,878]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-27 09:45:20,096]-DB_init.py :Line:43 : start sys , init DB_ds 
+[    INFO]-[2017-05-27 09:45:20,110]-DB_init.py :Line:36 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-27 09:45:20,110]-DB_init.py :Line:36 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-27 09:45:20,110]-DB_init.py :Line:36 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-27 09:45:20,110]-DB_init.py :Line:36 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-27 09:45:20,111]-DB_init.py :Line:51 : start sys , compute all count data 
+[    INFO]-[2017-05-27 09:45:20,112]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-27 09:47:33,165]-DB_init.py :Line:43 : start sys , init DB_ds 
+[    INFO]-[2017-05-27 09:47:33,187]-DB_init.py :Line:36 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-27 09:47:33,187]-DB_init.py :Line:36 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-27 09:47:33,187]-DB_init.py :Line:36 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-27 09:47:33,187]-DB_init.py :Line:36 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-27 09:47:33,188]-DB_init.py :Line:51 : start sys , compute all count data 
+[    INFO]-[2017-05-27 09:47:33,189]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-27 10:14:48,615]-DB_init.py :Line:43 : start sys , init DB_ds 
+[    INFO]-[2017-05-27 10:14:48,629]-DB_init.py :Line:36 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-27 10:14:48,629]-DB_init.py :Line:36 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-27 10:14:48,629]-DB_init.py :Line:36 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-27 10:14:48,629]-DB_init.py :Line:36 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-27 10:14:48,630]-DB_init.py :Line:51 : start sys , compute all count data 
+[    INFO]-[2017-05-27 10:14:48,631]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-27 10:17:57,823]-DB_init.py :Line:43 : start sys , init DB_ds 
+[    INFO]-[2017-05-27 10:17:57,828]-DB_init.py :Line:36 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-27 10:17:57,828]-DB_init.py :Line:36 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-27 10:17:57,828]-DB_init.py :Line:36 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-27 10:17:57,828]-DB_init.py :Line:36 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-27 10:17:57,830]-DB_init.py :Line:51 : start sys , compute all count data 
+[    INFO]-[2017-05-27 10:17:57,830]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-27 10:20:31,163]-DB_init.py :Line:43 : start sys , init DB_ds 
+[    INFO]-[2017-05-27 10:20:31,168]-DB_init.py :Line:36 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-27 10:20:31,168]-DB_init.py :Line:36 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-27 10:20:31,168]-DB_init.py :Line:36 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-27 10:20:31,169]-DB_init.py :Line:36 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-27 10:20:31,170]-DB_init.py :Line:51 : start sys , compute all count data 
+[    INFO]-[2017-05-27 10:20:31,170]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-27 10:24:10,994]-DB_init.py :Line:43 : start sys , init DB_ds 
+[    INFO]-[2017-05-27 10:24:11,018]-DB_init.py :Line:36 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-27 10:24:11,018]-DB_init.py :Line:36 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-27 10:24:11,018]-DB_init.py :Line:36 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-27 10:24:11,018]-DB_init.py :Line:36 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-27 10:24:11,019]-DB_init.py :Line:51 : start sys , compute all count data 
+[    INFO]-[2017-05-27 10:24:11,019]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-27 10:26:19,424]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-27 10:26:19,424]-Service.py :Line:31 : the service request parameter : {'step_count': 1000, 'step': 1, 'type': 'line', 'legend_infos': {'安卓离线学习记录更新接口': {'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'bbt_course_uStudyRecord_offlineByAndroid'}, 'ios线上学习记录更新接口': {'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'bbt_course_uStudyRecordByIos'}, '安卓线上学习记录更新接口': {'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'bbt_course_uStudyRecordByAndroid'}, '接口调用总量': {'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': ''}, '学习记录更新接口': {'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'FR_trDs_uStudyRecord'}, 'ios离线学习记录更新接口': {'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'bbt_course_uStudyRecord_offlineByIos'}, '用户登录接口': {'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'bbt_login_sUserLogin'}}, 'title_text': '接口调用量统计'}
+[    INFO]-[2017-05-27 10:48:24,085]-DB_init.py :Line:43 : start sys , init DB_ds 
+[    INFO]-[2017-05-27 10:48:24,089]-DB_init.py :Line:36 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-27 10:48:24,089]-DB_init.py :Line:36 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-27 10:48:24,090]-DB_init.py :Line:36 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-27 10:48:24,090]-DB_init.py :Line:36 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-27 10:48:24,091]-DB_init.py :Line:51 : start sys , compute all count data 
+[    INFO]-[2017-05-27 10:48:24,091]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-27 10:48:29,042]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-27 10:48:29,043]-Service.py :Line:31 : the service request parameter : {'type': 'line', 'legend_infos': {'ios线上学习记录更新接口': {'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecordByIos', 'filter_infos': [], 'project_name': 'YXYBB'}, '用户登录接口': {'statistic_type': 'interface', 'statistic_name': 'bbt_login_sUserLogin', 'filter_infos': [], 'project_name': 'YXYBB'}, 'ios离线学习记录更新接口': {'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecord_offlineByIos', 'filter_infos': [], 'project_name': 'YXYBB'}, '接口调用总量': {'statistic_type': 'interface', 'statistic_name': '', 'filter_infos': [], 'project_name': 'YXYBB'}, '学习记录更新接口': {'statistic_type': 'interface', 'statistic_name': 'FR_trDs_uStudyRecord', 'filter_infos': [], 'project_name': 'YXYBB'}, '安卓离线学习记录更新接口': {'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecord_offlineByAndroid', 'filter_infos': [], 'project_name': 'YXYBB'}, '安卓线上学习记录更新接口': {'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecordByAndroid', 'filter_infos': [], 'project_name': 'YXYBB'}}, 'title_text': '接口调用量统计', 'step': 1, 'step_count': 1000}
+[   DEBUG]-[2017-05-27 10:48:39,754]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-27 10:48:39,755]-Service.py :Line:31 : the service request parameter : {'type': 'line', 'legend_infos': {'ios线上学习记录更新接口': {'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecordByIos', 'filter_infos': [], 'project_name': 'YXYBB'}, '用户登录接口': {'statistic_type': 'interface', 'statistic_name': 'bbt_login_sUserLogin', 'filter_infos': [], 'project_name': 'YXYBB'}, 'ios离线学习记录更新接口': {'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecord_offlineByIos', 'filter_infos': [], 'project_name': 'YXYBB'}, '接口调用总量': {'statistic_type': 'interface', 'statistic_name': '', 'filter_infos': [], 'project_name': 'YXYBB'}, '学习记录更新接口': {'statistic_type': 'interface', 'statistic_name': 'FR_trDs_uStudyRecord', 'filter_infos': [], 'project_name': 'YXYBB'}, '安卓离线学习记录更新接口': {'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecord_offlineByAndroid', 'filter_infos': [], 'project_name': 'YXYBB'}, '安卓线上学习记录更新接口': {'statistic_type': 'interface', 'statistic_name': 'bbt_course_uStudyRecordByAndroid', 'filter_infos': [], 'project_name': 'YXYBB'}}, 'title_text': '接口调用量统计', 'step': 1, 'step_count': 1000}
+[    INFO]-[2017-05-27 10:51:11,546]-DB_init.py :Line:43 : start sys , init DB_ds 
+[    INFO]-[2017-05-27 10:51:11,560]-DB_init.py :Line:36 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-27 10:51:11,561]-DB_init.py :Line:36 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-27 10:51:11,561]-DB_init.py :Line:36 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-27 10:51:11,561]-DB_init.py :Line:36 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-27 10:51:11,562]-DB_init.py :Line:51 : start sys , compute all count data 
+[    INFO]-[2017-05-27 10:51:11,563]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-27 10:51:33,865]-DB_init.py :Line:43 : start sys , init DB_ds 
+[    INFO]-[2017-05-27 10:51:33,880]-DB_init.py :Line:36 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-27 10:51:33,880]-DB_init.py :Line:36 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-27 10:51:33,880]-DB_init.py :Line:36 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-27 10:51:33,880]-DB_init.py :Line:36 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-27 10:51:33,882]-DB_init.py :Line:51 : start sys , compute all count data 
+[    INFO]-[2017-05-27 10:51:33,883]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-27 11:44:57,332]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-27 11:44:57,332]-Service.py :Line:31 : the service request parameter : {'step': 1, 'legend_infos': {'接口调用总量': {'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': '', 'statistic_type': 'interface'}, '安卓离线学习记录更新接口': {'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'bbt_course_uStudyRecord_offlineByAndroid', 'statistic_type': 'interface'}, '安卓线上学习记录更新接口': {'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'bbt_course_uStudyRecordByAndroid', 'statistic_type': 'interface'}, '用户登录接口': {'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'bbt_login_sUserLogin', 'statistic_type': 'interface'}, 'ios线上学习记录更新接口': {'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'bbt_course_uStudyRecordByIos', 'statistic_type': 'interface'}, '学习记录更新接口': {'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'FR_trDs_uStudyRecord', 'statistic_type': 'interface'}, 'ios离线学习记录更新接口': {'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'bbt_course_uStudyRecord_offlineByIos', 'statistic_type': 'interface'}}, 'type': 'line', 'title_text': '接口调用量统计', 'step_count': 1000}
+[   DEBUG]-[2017-05-27 18:25:25,573]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-27 18:25:25,573]-Service.py :Line:31 : the service request parameter : {'step': 1, 'legend_infos': {'接口调用总量': {'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': '', 'statistic_type': 'interface'}, '安卓离线学习记录更新接口': {'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'bbt_course_uStudyRecord_offlineByAndroid', 'statistic_type': 'interface'}, '安卓线上学习记录更新接口': {'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'bbt_course_uStudyRecordByAndroid', 'statistic_type': 'interface'}, '用户登录接口': {'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'bbt_login_sUserLogin', 'statistic_type': 'interface'}, 'ios线上学习记录更新接口': {'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'bbt_course_uStudyRecordByIos', 'statistic_type': 'interface'}, '学习记录更新接口': {'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'FR_trDs_uStudyRecord', 'statistic_type': 'interface'}, 'ios离线学习记录更新接口': {'project_name': 'YXYBB', 'filter_infos': [], 'statistic_name': 'bbt_course_uStudyRecord_offlineByIos', 'statistic_type': 'interface'}}, 'type': 'line', 'title_text': '接口调用量统计', 'step_count': 1000}
+[    INFO]-[2017-05-27 18:25:44,860]-DB_init.py :Line:43 : start sys , init DB_ds 
+[    INFO]-[2017-05-27 18:25:44,868]-DB_init.py :Line:36 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-27 18:25:44,868]-DB_init.py :Line:36 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-27 18:25:44,868]-DB_init.py :Line:36 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-27 18:25:44,868]-DB_init.py :Line:36 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-27 18:25:44,870]-DB_init.py :Line:51 : start sys , compute all count data 
+[    INFO]-[2017-05-27 18:25:44,870]-Init.py :Line:17 : start receive mongodb log
+[    INFO]-[2017-05-27 18:26:32,791]-DB_init.py :Line:43 : start sys , init DB_ds 
+[    INFO]-[2017-05-27 18:26:32,796]-DB_init.py :Line:36 : init DB_ds , insert data:OAMP:OAMP
+[    INFO]-[2017-05-27 18:26:32,796]-DB_init.py :Line:36 : init DB_ds , insert data:BBT:BBT
+[    INFO]-[2017-05-27 18:26:32,797]-DB_init.py :Line:36 : init DB_ds , insert data:YXYBB:YXYBB
+[    INFO]-[2017-05-27 18:26:32,797]-DB_init.py :Line:36 : init DB_ds , insert data:base:BASE
+[    INFO]-[2017-05-27 18:26:32,798]-DB_init.py :Line:51 : start sys , compute all count data 
+[    INFO]-[2017-05-27 18:26:32,799]-Init.py :Line:17 : start receive mongodb log
+[   DEBUG]-[2017-05-27 18:26:46,495]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-27 18:26:46,495]-Service.py :Line:31 : the service request parameter : {'legend_infos': {'ios离线学习记录更新接口': {'statistic_name': 'bbt_course_uStudyRecord_offlineByIos', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, '学习记录更新接口': {'statistic_name': 'FR_trDs_uStudyRecord', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, '安卓离线学习记录更新接口': {'statistic_name': 'bbt_course_uStudyRecord_offlineByAndroid', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, '接口调用总量': {'statistic_name': '', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, '用户登录接口': {'statistic_name': 'bbt_login_sUserLogin', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, 'ios线上学习记录更新接口': {'statistic_name': 'bbt_course_uStudyRecordByIos', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, '安卓线上学习记录更新接口': {'statistic_name': 'bbt_course_uStudyRecordByAndroid', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}}, 'step_count': 1000, 'step': 1, 'title_text': '接口调用量统计', 'type': 'line'}
+[   DEBUG]-[2017-05-27 18:27:20,659]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-27 18:27:20,659]-Service.py :Line:31 : the service request parameter : {'legend_infos': {'ios离线学习记录更新接口': {'statistic_name': 'bbt_course_uStudyRecord_offlineByIos', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, '学习记录更新接口': {'statistic_name': 'FR_trDs_uStudyRecord', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, '安卓离线学习记录更新接口': {'statistic_name': 'bbt_course_uStudyRecord_offlineByAndroid', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, '接口调用总量': {'statistic_name': '', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, '用户登录接口': {'statistic_name': 'bbt_login_sUserLogin', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, 'ios线上学习记录更新接口': {'statistic_name': 'bbt_course_uStudyRecordByIos', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, '安卓线上学习记录更新接口': {'statistic_name': 'bbt_course_uStudyRecordByAndroid', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}}, 'step_count': 1000, 'step': 1, 'title_text': '接口调用量统计', 'type': 'line'}
+[   DEBUG]-[2017-05-27 18:27:23,464]-Service.py :Line:30 : the service request method : line_test
+[   DEBUG]-[2017-05-27 18:27:23,464]-Service.py :Line:31 : the service request parameter : {'legend_infos': {'ios离线学习记录更新接口': {'statistic_name': 'bbt_course_uStudyRecord_offlineByIos', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, '学习记录更新接口': {'statistic_name': 'FR_trDs_uStudyRecord', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, '安卓离线学习记录更新接口': {'statistic_name': 'bbt_course_uStudyRecord_offlineByAndroid', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, '接口调用总量': {'statistic_name': '', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, '用户登录接口': {'statistic_name': 'bbt_login_sUserLogin', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, 'ios线上学习记录更新接口': {'statistic_name': 'bbt_course_uStudyRecordByIos', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}, '安卓线上学习记录更新接口': {'statistic_name': 'bbt_course_uStudyRecordByAndroid', 'statistic_type': 'interface', 'project_name': 'YXYBB', 'filter_infos': []}}, 'step_count': 1000, 'step': 1, 'title_text': '接口调用量统计', 'type': 'line'}
