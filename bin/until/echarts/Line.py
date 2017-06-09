@@ -109,6 +109,8 @@ class Line(object):
             serie = {
                 "name": _legend_data,
                 "type": self._type,
+                "showSymbol":False,
+                "smooth":True,
                 # "stack": '总量',
                 "data": series_data.copy()  # 坐标轴上的值
             }

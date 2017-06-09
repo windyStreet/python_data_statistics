@@ -19,7 +19,7 @@ class Path(object):
         self.filesDirPath = self.projectDirPath + "files"
         self.runtimeDirPath = self.projectDirPath + "runtime"
         self.webPath = self.projectDirPath + "web"
-        self.htmlPath = self.webPath + os.sep + "html"
+        self.htmlPath = self.webPath
         self.javaScriptPath = self.webPath + os.sep + "js"
         self.cssPath = self.webPath + os.sep + "css"
         self.webPicPath = self.webPath + os.sep + "pic"

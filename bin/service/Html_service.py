@@ -26,3 +26,7 @@ class interface_statistics(tornado.web.RequestHandler):
 class line_test(tornado.web.RequestHandler):
     def get(self):
         self.render(htmlPath + self.request.path)
+
+class line_data(tornado.web.RequestHandler):
+    def get(self):
+        self.render(htmlPath + self.request.path)

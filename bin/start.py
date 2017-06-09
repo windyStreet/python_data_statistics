@@ -18,7 +18,8 @@ if __name__ == "__main__":
                   (r"/index.html", index),
                   (r"/main.html", main),
                   (r"/interface_statistics.html", interface_statistics),
-                  (r"/line_test.html", line_test)
+                  (r"/line_test.html", line_test),
+                  (r"/line_data.html", line_data)
                   ],
         template_path=P.htmlPath,
         static_path=P.webPath,

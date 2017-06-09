@@ -1,13 +1,4 @@
 function init(){
-    var arrays = new Array();
-    arrays.push(1)
-    arrays.push(2)
-    arrays.push(3)
-    arrays.pop()
-    for ( var i=0 ; i < arrays.length;i++)
-    {
-        //alert(arrays[i])
-    }
     DBCODE = getDBCODE()
     //选取的不能大于当前值。备注：如果数据未计算，应该先采用数据恢复方案，恢复数据之后再操作
 //    bbt_login_sUserLogin
@@ -20,8 +11,8 @@ function init(){
         "method":"line_test",
         "data":{
             "type":"line",
-            "step_count":1000,
-            "step":5,
+            "step_count":300,
+            "step":1,
             "legend_infos":{
                 "接口调用总量":
                 {
@@ -103,9 +94,4 @@ function func1(data)
     option['yAxis']={type: 'value'}
     // 使用刚指定的配置项和数据显示图表。
     myChart.setOption(option);
-}
-function func2(data)
-{
-    alert(data)
-    console.log(data)
 }
